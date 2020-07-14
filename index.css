@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+
+/* GENERAL CLASSES */
+ .flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.grid {
+    display: grid;
+}
+
+.myBox {
+    border: 1px solid black;
+}
+
+
+/* navBar */
+.firstNav{
+    background: black;
+}
+
+.firstNav a{
+    color: white;
+    padding: 5px 0;
+    opacity: 0.5;
+}
+.firstNav a:hover {
+    opacity: 1  
+}
+
+.firstNav-left {
+    padding-left: 20px;
+    
+}
+
+.firstNav-left a {
+    padding-right: 20px;
+}
+
+.firstNav-rigth {
+    padding-right: 20px;
+}
+
+.firstNav-rigth a {
+    padding-left: 20px;
+}
+
+/* second nav row */
+.secondNav-left {
+    background-color: orange;
+}
+.secondNav-right {
+    background-color: red;
+}
