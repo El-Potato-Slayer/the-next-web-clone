@@ -94,3 +94,68 @@ body {
 .secondNav-right {
   /* background-color: red; */
 }
+
+/* FIRST BIG IMAGE */
+
+.article-section1 {
+grid-template-columns: 0.65fr 0.35fr;
+grid-gap: 8px;
+height: 500px;
+border-top: 10px solid lightgray;
+}
+
+.article-section1-article {
+    background-color: blue;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(255, 0, 150, 0.3)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/header-image-how-to-scan-a-QR-code-iPhone-iOS-Apple-796x417.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* padding-left: 20px; */
+
+}
+
+.article-section1-article h2 {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    color: white;
+    font-size: 175px;
+    font-weight: 700;
+}
+
+.article-section1-article p:nth-child(2) {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+}
+
+
+
+
+.card-header {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    color: white;
+}
+
+.card-header h3 {
+    font-size: 60px;
+    padding-bottom: 15px;
+}
+
+.card-header a {
+    color: gray;
+}
+
+/* Right images 1 section*/
+
+.article-section1-article2 {
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 8px;
+}
+
+article-section1-article2-card {
+    background-color: black;
+}
