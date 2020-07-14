@@ -110,19 +110,18 @@ body {
   grid-gap: 8px;
   height: 500px;
   border-top: 10px solid lightgray;
+  padding: 0px 10px;
 }
 
-.card {
+.article-section1-card {
   background-color: blue;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(255, 0, 150, 0.3)),
-    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/header-image-how-to-scan-a-QR-code-iPhone-iOS-Apple-796x417.png);
   background-repeat: no-repeat;
   background-size: cover;
   /* position: relative; */
   /* padding-left: 20px; */
 }
 
-.card h2 {
+.article-section1-card h2 {
   top: 0;
   left: 20px;
   color: white;
@@ -130,33 +129,30 @@ body {
   font-weight: 700;
 }
 
-.card p:nth-child(2) {
+.article-section1-card p:nth-child(2) {
   top: 20px;
   right: 20px;
   color: white;
 }
 
-.card-header {
+.article-section1-card-header {
   position: absolute;
   left: 20px;
   bottom: 20px;
   color: white;
 }
 
-#test {
-  /* position: relative; */
-}
 
-.card h3 {
+.article-section1-card h3 {
   font-size: 60px;
   padding-bottom: 15px;
 }
 
-.smaller-card h3 {
+.smaller-article-section1-card h3 {
   font-size: 24px;
 }
 
-.card-header a {
+.article-section1-card-header a {
   color: gray;
 }
 
@@ -167,6 +163,26 @@ body {
   grid-gap: 8px;
 }
 
-.article-section1-article2-card {
+.article-section1-article2-article-section1-card {
   background-color: black;
+}
+
+.article-section1-image-1{
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/header-image-how-to-scan-a-QR-code-iPhone-iOS-Apple-796x417.png), linear-gradient(rgba(255, 0, 150), rgba(0, 0, 0) 95%); 
+    background-blend-mode: overlay; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.article-section1-image-2{
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Untitled-design-4-796x417.png), linear-gradient(rgba(255, 0, 150), rgba(0, 0, 0) 95%); background-blend-mode: overlay; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.article-section1-image-3{
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/header-image-horny-void-796x417.png), linear-gradient(rgba(255, 0, 150), rgba(0, 0, 0) 95%); background-blend-mode: overlay; 
+    background-repeat: no-repeat;
+    background-size: cover;
 }
