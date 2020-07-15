@@ -8,6 +8,10 @@ body {
   height: 120vh;
 }
 
+img {
+  width: 100%;
+}
+
 /* GENERAL CLASSES */
 .flex {
   display: flex;
@@ -142,7 +146,6 @@ body {
   color: white;
 }
 
-
 .article-section1-card h3 {
   font-size: 60px;
   padding-bottom: 15px;
@@ -167,22 +170,45 @@ body {
   background-color: black;
 }
 
-.article-section1-image-1{
-    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/header-image-how-to-scan-a-QR-code-iPhone-iOS-Apple-796x417.png), linear-gradient(rgba(255, 0, 150), rgba(0, 0, 0) 95%); 
-    background-blend-mode: overlay; 
-    background-repeat: no-repeat;
-    background-size: cover;
-  
+.article-section1-image-1 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/header-image-how-to-scan-a-QR-code-iPhone-iOS-Apple-796x417.png),
+    linear-gradient(rgba(255, 0, 150), rgba(0, 0, 0) 95%);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.article-section1-image-2{
-    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Untitled-design-4-796x417.png), linear-gradient(rgba(255, 0, 150), rgba(0, 0, 0) 95%); background-blend-mode: overlay; 
-    background-repeat: no-repeat;
-    background-size: cover;
+.article-section1-image-2 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Untitled-design-4-796x417.png),
+    linear-gradient(rgba(255, 0, 150), rgba(0, 0, 0) 95%);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.article-section1-image-3{
-    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/header-image-horny-void-796x417.png), linear-gradient(rgba(255, 0, 150), rgba(0, 0, 0) 95%); background-blend-mode: overlay; 
-    background-repeat: no-repeat;
-    background-size: cover;
+.article-section1-image-3 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/header-image-horny-void-796x417.png),
+    linear-gradient(rgba(255, 0, 150), rgba(0, 0, 0) 95%);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* article section2 */
+.article-section2 {
+  padding: 88px;
+}
+
+.article-section2-grid {
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 24px;
+}
+
+.article-section2-card h4 {
+  font-size: 20px;
+  padding: 8px 0;
+}
+
+.article-section2-card p {
+  color: gray;
 }
