@@ -33,6 +33,10 @@ img {
   justify-content: flex-end;
 }
 
+.space-between {
+  justify-content: space-between;
+}
+
 .grid {
   display: grid;
 }
@@ -50,6 +54,20 @@ img {
 }
 
 /* navBar */
+
+#logo-box {
+  padding: 10px;
+  background-color: red;
+}
+#redImage {
+  display: none;
+}
+
+.navBox {
+  width: 100%;
+}
+
+
 .firstNav {
   background: black;
 }
@@ -65,7 +83,7 @@ img {
 
 .firstNav-left {
   padding-left: 20px;
-}
+} 
 
 .firstNav-left a {
   padding-right: 20px;
@@ -80,7 +98,7 @@ img {
 }
 
 /* second nav row */
-.secondNav a {
+.secondNav-left a {
   padding: 12px 4px 12px 12px;
   color: lightgray;
 }
@@ -90,14 +108,18 @@ img {
 }
 
 .secondNav button {
-  padding: 6px;
   border: none;
   background-color: transparent;
   border-left: 1px solid lightgray;
+  padding: 0 20px;
 }
 
 .secondNav button a {
   color: lightgray;
+}
+
+#hamburger-icon {
+  display: none;
 }
 
 .secondNav-left {
@@ -211,4 +233,65 @@ img {
 
 .article-section2-card p {
   color: gray;
+}
+
+
+/* firstMediaquery */
+
+@media (max-width: 1024px) {
+  #redImage {
+    background-color: red;
+    width: 75px;
+    height: 100%;
+    display: block; 
+  }
+  
+  .navBox {
+    /* background-color: green; */
+    width: 100%;
+  }
+
+
+.firstNav-left {
+  padding-left: 10px;
+} 
+
+.firstNav-left a {
+  padding-right: 5px;
+}
+
+}
+
+
+
+
+@media (max-width: 768px) {
+  .secondNav-left,
+  .firstNav {
+    display: none;
+  }
+  .secondNav-right button{
+    justify-content: flex-end;
+  }
+
+  #hamburger-icon {
+    display: inline-block;
+    text-align: right;
+    
+  }
+
+  #hamburger-icon a{
+    color: red;
+  }
+  
+  .secondNav-right{
+    width: 100%;
+    /* padding-left: 200px; */
+  }
+  .secondNav button {
+    padding: 16px;
+  }
+  #redImage {
+    width: 100px;
+  }
 }
