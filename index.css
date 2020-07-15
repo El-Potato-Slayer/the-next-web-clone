@@ -68,7 +68,6 @@ img {
   width: 100%;
 }
 
-
 .firstNav {
   background: black;
 }
@@ -84,7 +83,7 @@ img {
 
 .firstNav-left {
   padding-left: 20px;
-} 
+}
 
 .firstNav-left a {
   padding-right: 20px;
@@ -194,7 +193,7 @@ img {
 }
 
 .article-section1-image-1 {
-  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/header-image-how-to-scan-a-QR-code-iPhone-iOS-Apple-796x417.png),
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/ccs-ariya-chademo-nissan-leaf-charging-cars-electricity-ev-ccs-type-2-port-cable-connector-796x448.png),
     linear-gradient(rgba(255, 0, 150), rgba(0, 0, 0) 95%);
   background-blend-mode: overlay;
   background-repeat: no-repeat;
@@ -219,7 +218,18 @@ img {
 
 /* article section2 */
 .article-section2 {
-  padding: 88px;
+  padding: 16px 88px;
+}
+
+.article-section2 h3 {
+  color: rgb(255, 68, 34);
+  font-size: 26px;
+  margin-bottom: 24px;
+}
+
+.article-section2 h3:hover {
+  color: black;
+  cursor: pointer;
 }
 
 .article-section2-grid {
@@ -236,7 +246,6 @@ img {
   color: gray;
 }
 
-
 /* firstMediaquery */
 
 @media (max-width: 1024px) {
@@ -244,53 +253,72 @@ img {
     background-color: red;
     width: 75px;
     height: 100%;
-    display: block; 
+    display: block;
   }
-  
+
   .navBox {
     /* background-color: green; */
     width: 100%;
   }
 
+  .firstNav-left {
+    padding-left: 10px;
+  }
 
-.firstNav-left {
-  padding-left: 10px;
-} 
+  .firstNav-left a {
+    padding-right: 5px;
+  }
+  #logo-box {
+    display: inline;
+  }
 
-.firstNav-left a {
-  padding-right: 5px;
+  /* article section 1 */
+
+  .article-section1-card h3 {
+    font-size: 40px;
+  }
+
+  .smaller-article-section1-card h3 {
+    font-size: 20px;
+  }
+
+  /* article section 2 */
+  .article-section2-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .article-section2 {
+    padding: 24px;
+  }
+
+  .article-section2-card h4 {
+    font-size: 14px;
+  }
+
+  .article-section2-card p {
+    font-size: 12px;
+  }
 }
-#logo-box {
-  display: inline;
-}
-
-
-
-}
-
-
-
 
 @media (max-width: 768px) {
   .secondNav-left,
   .firstNav {
     display: none;
   }
-  .secondNav-right button{
+  .secondNav-right button {
     justify-content: flex-end;
   }
 
   #hamburger-icon {
     display: inline-block;
     text-align: right;
-    
   }
 
-  #hamburger-icon a{
+  #hamburger-icon a {
     color: red;
   }
-  
-  .secondNav-right{
+
+  .secondNav-right {
     width: 100%;
     /* padding-left: 200px; */
   }
@@ -299,5 +327,45 @@ img {
   }
   #redImage {
     width: 100px;
+  }
+
+  /* article section 1 */
+  .article-section1 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+    height: 600px;
+  }
+
+  .article-section1 div h2,
+  .article-section1-card > p {
+    display: none;
+  }
+
+  .article-section1-article2 {
+    grid-template-rows: 1fr 1fr;
+    /* height: 400px; */
+  }
+
+  .article-section1-card h3 {
+    font-size: 20px;
+    padding: 4px 0;
+  }
+
+  /* article section 2 */
+  .article-section2-grid {
+    grid-template-columns: 1fr;
+    grid-gap: 12px;
+  }
+
+  .article-section2-card {
+    display: flex;
+    /* flex-direction: column; */
+  }
+
+  .article-section2-card img {
+    width: 80px;
+    height: 80px;
+    margin-right: 16px;
+    object-fit: cover;
   }
 }
