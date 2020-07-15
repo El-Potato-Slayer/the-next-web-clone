@@ -58,6 +58,7 @@ img {
 #logo-box {
   padding: 10px;
   background-color: red;
+  display: none;
 }
 #redImage {
   display: none;
@@ -259,6 +260,11 @@ img {
 .firstNav-left a {
   padding-right: 5px;
 }
+#logo-box {
+  display: inline;
+}
+
+
 
 }
 
