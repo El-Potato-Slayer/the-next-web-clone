@@ -12,7 +12,39 @@ img {
   width: 100%;
 }
 
+h2 {
+  font-size: 28px;
+}
+
 /* GENERAL CLASSES */
+.main-container {
+  max-width: 1140px;
+  padding: 0 10px;
+}
+
+.m-0-auto {
+  margin: 0 auto;
+}
+
+.header-link {
+  color: #ff4422;
+}
+
+.header-link:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.text-white {
+  color: white;
+}
+
+.img-overlay {
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .flex {
   display: flex;
 }
@@ -29,11 +61,19 @@ img {
   flex: 1;
 }
 
+.flex-2 {
+  flex: 2;
+}
+
+.flex-3 {
+  flex: 3;
+}
+
 .flex-end {
   justify-content: flex-end;
 }
 
-.flex-align-items {
+.flex-align-items-end {
   align-items: flex-end;
 }
 
@@ -41,8 +81,28 @@ img {
   justify-content: space-between;
 }
 
+.space-around {
+  justify-content: space-around;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
 .grid {
   display: grid;
+}
+
+.col-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.col-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-gap-24 {
+  grid-gap: 24px;
 }
 
 .myBox {
@@ -135,7 +195,7 @@ img {
 
 /* FIRST BIG IMAGE */
 
-.article-section1 {
+.section1 {
   grid-template-columns: 0.65fr 0.35fr;
   grid-gap: 8px;
   height: 500px;
@@ -143,7 +203,7 @@ img {
   padding: 0px 10px;
 }
 
-.article-section1-card {
+.section1-card {
   background-color: blue;
   background-repeat: no-repeat;
   background-size: cover;
@@ -151,124 +211,94 @@ img {
   /* padding-left: 20px; */
 }
 
-.article-section1-card h2 {
+.section1-card h2 {
   top: 0;
   left: 20px;
-  color: white;
   font-size: 175px;
   font-weight: 700;
 }
 
-.article-section1-card p:nth-child(2) {
+.section1-card p:nth-child(2) {
   top: 20px;
   right: 20px;
-  color: white;
 }
 
-.article-section1-card-header {
+.section1-card-header {
   position: absolute;
   left: 20px;
   bottom: 20px;
-  color: white;
 }
 
-.article-section1-card h3 {
+.section1-card h3 {
   font-size: 60px;
   padding-bottom: 15px;
 }
 
-.smaller-article-section1-card h3 {
+.smaller-section1-card h3 {
   font-size: 24px;
 }
 
-.article-section1-card-header a {
+.section1-card-header a {
   color: gray;
 }
 
 /* Right images 1 section*/
 
-.article-section1-article2 {
+.section1-article2 {
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 8px;
 }
 
-.article-section1-article2-article-section1-card {
+.section1-article2-section1-card {
   background-color: black;
 }
 
-.article-section1-image-1 {
+.section1-image-1 {
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/ccs-ariya-chademo-nissan-leaf-charging-cars-electricity-ev-ccs-type-2-port-cable-connector-796x448.png),
-    linear-gradient(rgba(255, 0, 150), rgba(0, 0, 0) 95%);
-  background-blend-mode: overlay;
-  background-repeat: no-repeat;
-  background-size: cover;
+    linear-gradient(transparent, rgba(0, 0, 0) 95%);
 }
 
-.article-section1-image-2 {
+.section1-image-2 {
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Untitled-design-4-796x417.png),
-    linear-gradient(rgba(255, 0, 150), rgba(0, 0, 0) 95%);
-  background-blend-mode: overlay;
-  background-repeat: no-repeat;
-  background-size: cover;
+    linear-gradient(transparent, rgba(0, 0, 0) 95%);
 }
 
-.article-section1-image-3 {
+.section1-image-3 {
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/header-image-horny-void-796x417.png),
-    linear-gradient(rgba(255, 0, 150), rgba(0, 0, 0) 95%);
-  background-blend-mode: overlay;
-  background-repeat: no-repeat;
-  background-size: cover;
+    linear-gradient(transparent, rgba(0, 0, 0) 95%);
 }
 
 /* article section2 */
-.article-section2 {
-  padding: 16px 88px;
-}
 
-.article-section2 h3 {
-  color: rgb(255, 68, 34);
+.section2 h2 {
   font-size: 26px;
-  margin-bottom: 24px;
+  margin: 24px 0;
 }
 
-.article-section2 h3:hover {
-  color: black;
-  cursor: pointer;
-}
-
-.article-section2-grid {
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 24px;
-}
-
-.article-section2-card h4 {
+.section2-card h4 {
   font-size: 20px;
   padding: 8px 0;
 }
 
-.article-section2-card p {
+.section2-card p {
   color: gray;
 }
-
-
 
 /* section 3 */
 
 .section3 {
-  padding: 0 88px;
+  padding: 88px 0;
 }
 
-.section3-header h3 {
-  font-size: 24px;
-  color: red;
+.section3 > div:first-child {
+  padding: 20px 0;
 }
-.section3-header a:hover,
-.section3-header h3:hover {
-  color: black;
+
+.section3-header h2 {
+  font-size: 24px;
 }
 
 .section3-header a {
-  color: red;
   font-size: 16px;
   font-weight: 500;
 }
@@ -279,37 +309,37 @@ img {
   padding: 0 5px;
 }
 
-.section3-header a:nth-child(3){
+.section3-header a:nth-child(3) {
   padding-left: 5px;
 }
 
 .section3-grid {
-  grid-template-columns: repeat(4,1fr);
-  grid-gap: 8px;
   margin-top: 10px;
   position: relative;
+}
 
+.section3-grid-header {
+  height: 100px;
+  background-color: #ffebe7;
 }
 
 .section3-grid-header h4 {
-  background-color: red;
-  color: white;
+  background-color: #ff4422;
   font-size: 18px;
   padding: 10px 0;
 }
 
-.section3-grid-header p:nth-child(2){
+.section3-grid-header p:nth-child(2) {
   color: black;
   font-weight: 700;
   padding-top: 10px;
   font-size: 16px;
-  background-color: lightpink;
 }
-.section3-grid-header p:nth-child(3){
+
+.section3-grid-header p:nth-child(3) {
   color: rgb(44, 44, 44);
   font-size: 14px;
   padding-top: 5px;
-  background-color: lightpink;
 }
 
 .section3-grid-header h4,
@@ -318,8 +348,7 @@ img {
   padding-left: 80px;
 }
 
-
-.section3-grid-header img{
+.section3-grid-header img {
   width: 60px;
   height: 60px;
   position: absolute;
@@ -329,42 +358,163 @@ img {
 }
 /* TRIALS */
 .section3-footer,
-.section3-grid-body {
+.section3-body {
   padding-left: 10px;
-  background-color: rgb(252, 214, 219);
+  background-color: #fffaf8;
 }
 
-.section3-body a{
-    font-size: 13px;
-    color: rgb(85, 85, 85);
-    display: block;
-    padding-top: 15px;
+.section3-body a {
+  font-size: 13px;
+  color: rgb(85, 85, 85);
+  display: block;
+  padding-top: 15px;
 }
 .section3-body a:nth-child(2) {
   padding-bottom: 15px;
 }
 
-.section3-footer{
-  border-top: 1px solid pink ;
+.section3-footer {
+  border-top: 1px solid pink;
+  height: 88px;
 }
-.section3-footer p:nth-child(1){
-  color: red;
+.section3-footer p {
   padding-top: 15px;
   font-size: 12px;
+  line-height: 20px;
 }
-.section3-footer p:nth-child(2){
+.section3-footer span {
   color: gray;
   padding-top: 5px;
-  padding-bottom: 50px;
   font-size: 12px;
 }
 
+/* section 4 */
+.section4-card {
+  padding: 16px 0;
+}
 
+.section4-card h2 {
+  padding-bottom: 16px;
+}
 
+.section4-card ul {
+  padding: 0 8px 0 16px;
+}
+
+.section4-card > ul:last-child li {
+  padding: 4px 0;
+  font-size: 13px;
+  line-height: 19.5px;
+  color: rgb(85, 85, 85);
+  border-bottom: 1px solid lightgray;
+}
+
+.section4 > section:first-child article {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg),
+    linear-gradient(transparent, rgba(0, 0, 0) 95%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section4 > section:nth-child(2) article {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Twitter-Hack-1-368x276.jpg),
+    linear-gradient(transparent, rgba(0, 0, 0) 95%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section4 > section:nth-child(3) article {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/header-image-new-braided-iPhone-cable-368x276.png),
+    linear-gradient(transparent, rgba(0, 0, 0) 95%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section4 > section:nth-child(4) article {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Untitled-design-5-368x276.png),
+    linear-gradient(transparent, rgba(0, 0, 0) 95%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section4 > section:nth-child(5) article {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Screenshot-2020-07-15-at-13.40.33-368x276.png),
+    linear-gradient(transparent, rgba(0, 0, 0) 95%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section4 > section:nth-child(6) article {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Featured-Image-The-Next-Web-368x276.jpg),
+    linear-gradient(transparent, rgba(0, 0, 0) 95%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section4 > section:nth-child(7) article {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/sleep-work-nap-office-gq-368x276.png),
+    linear-gradient(transparent, rgba(0, 0, 0) 95%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section4 > section:nth-child(8) article {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/BMW-ix3-unveiling-car-future-bavarian-motor-ev-electric-368x276.png),
+    linear-gradient(transparent, rgba(0, 0, 0) 95%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section4 > section:nth-child(9) article {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/call-of-duty-warzone-cod-368x276.jpg),
+    linear-gradient(transparent, rgba(0, 0, 0) 95%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section4-card article {
+  height: 250px;
+  padding: 0 16px;
+}
+
+.section4-card article * {
+  padding: 4px 0;
+}
+
+.section4-card h4,
+.section4-card div p {
+  color: #ff4422;
+}
+
+.section4-card article ul li:last-child::before {
+  content: "• ";
+  color: gray;
+}
+
+.section4-card article ul li {
+  display: inline;
+  color: gray;
+  font-size: 14px;
+}
+
+.section4-card div:first-child {
+  padding: 10px 12px;
+  height: 100px;
+  background: #fff4f2;
+}
+
+.section4-card div img {
+  height: 100%;
+  object-fit: cover;
+}
 
 /* firstMediaquery */
 
 @media (max-width: 1024px) {
+  .main-container {
+    padding: 0 24px;
+  }
+
   #redImage {
     background-color: red;
     width: 75px;
@@ -373,7 +523,6 @@ img {
   }
 
   .navBox {
-    /* background-color: green; */
     width: 100%;
   }
 
@@ -390,32 +539,58 @@ img {
 
   /* article section 1 */
 
-  .article-section1-card h3 {
+  .section1-card h3 {
     font-size: 40px;
   }
 
-  .smaller-article-section1-card h3 {
+  .smaller-section1-card h3 {
     font-size: 20px;
   }
 
   /* article section 2 */
-  .article-section2-grid {
+  .section2-grid {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .article-section2 {
-    padding: 24px;
+  .section2 {
+    padding: 24px 0;
   }
 
-  .article-section2-card h4 {
+  .section2-card h4 {
     font-size: 14px;
   }
 
-  .article-section2-card p {
+  .section2-card p {
     font-size: 12px;
   }
+
+  /* Section 3 */
+  .section3-header {
+    flex-direction: column;
+  }
+
+  .section3 h2 {
+    padding-bottom: 16px;
+  }
+
+  .section3-header div:last-child {
+    justify-content: flex-start;
+  }
+
+  .section3-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .section3-grid > div:last-child {
+    display: none;
+  }
+
+  /* Section 4 */
+  .section4 {
+    grid-template-columns: 1fr 1fr;
+  }
 }
- 
+
 @media (max-width: 768px) {
   .secondNav-left,
   .firstNav {
@@ -446,42 +621,75 @@ img {
   }
 
   /* article section 1 */
-  .article-section1 {
+  .section1 {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 2fr;
     height: 600px;
   }
 
-  .article-section1 div h2,
-  .article-section1-card > p {
+  .section1 div h2,
+  .section1-card > p {
     display: none;
   }
 
-  .article-section1-article2 {
+  .section1-article2 {
     grid-template-rows: 1fr 1fr;
     /* height: 400px; */
   }
 
-  .article-section1-card h3 {
+  .section1-card h3 {
     font-size: 20px;
     padding: 4px 0;
   }
 
   /* article section 2 */
-  .article-section2-grid {
+  .section2-grid {
     grid-template-columns: 1fr;
     grid-gap: 12px;
   }
 
-  .article-section2-card {
+  .section2-card {
     display: flex;
-    /* flex-direction: column; */
   }
 
-  .article-section2-card img {
+  .section2-card img {
     width: 80px;
     height: 80px;
     margin-right: 16px;
     object-fit: cover;
+  }
+
+  /* section 3 */
+  .section3-header div:last-child {
+    flex-direction: column;
+    border: none;
+    align-items: flex-start;
+    /* background-color: purple; */
+  }
+
+  .section3-header div:last-child a {
+    border: none;
+    padding: 8px 0;
+  }
+
+  .section3-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section3-footer {
+    height: 40px;
+  }
+
+  /* Section 4 */
+  .section4 {
+    grid-template-columns: 1fr;
+  }
+
+  .section4-card article {
+    min-height: 500px;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
