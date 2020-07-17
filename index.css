@@ -296,14 +296,19 @@ h4,
 
 /* article section2 */
 
+.section2 {
+  margin-bottom: 100px;
+}
+
 .section2 h2 {
   font-size: 26px;
   margin: 24px 0;
 }
-
+.section5 h4,
 .section2-card h4 {
   font-size: 20px;
   padding: 8px 0;
+  font-weight: 700;
 }
 
 .section2-card p {
@@ -313,7 +318,7 @@ h4,
 /* section 3 */
 
 .section3 {
-  padding: 88px 0;
+  padding-bottom: 88px;
 }
 
 .section3 > div:first-child {
@@ -534,11 +539,73 @@ h4,
   object-fit: cover;
 }
 
+
+.section5-img {
+  height: 200px;
+}
+
+.section5 P span {
+  text-decoration: line-through;
+  font-size: 13px;
+  color: gray
+}
+
+.section5-image-container {
+  width: 270px;
+  height: 200px;
+  background-color: blue;
+  position: relative;
+  overflow: hidden;
+}
+
+.section5-image-container-discount {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  position: absolute;
+  right: -50px;
+  top:-50px;
+  transform: rotate(45deg);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+#section5-image-1 {
+  
+  background-image: url("https://cdnp0.stackassets.com/3e78bbb7980969a1bcd223a42e7e40915a93aae6/store/34e34ac3bb8f34d4635318a13f340854fc52d3b845744485bba64f221379/sale_29369_primary_image.jpg");
+}
+#section5-image-2 {
+  background-image:     url("https://cdnp2.stackassets.com/6179061a340aec6fb745648722689d80eb1f1165/store/f861de62ba66a53247f38806f00d41550a956e426fc22b7963aafc23c1b3/sale_28210_primary_image.jpg");
+};
+
+#section5-image-3 {
+  background-image: url("https://cdnp1.stackassets.com/e8f1faa409a8afbf6253a798070a2000f9ad6f53/store/ff5a99e875e8fe3b107b971d1758eb63f64c0ec705552bf70f9a9d43fa1d/sale_26830_primary_image.jpg");;
+}
+
+#section5-image-4 {
+  background-image: url("https://cdnp2.stackassets.com/55b5582123940580564fac41b684a689184fb566/store/066605b2a90e38c775878a560a4602ac2b165c69d46f49932c490053c5e9/sale_21184_primary_image.jpg");
+}
+#section5-image-5 {
+  background-image: url("https://cdnp1.stackassets.com/fd871f3b9afc9c6c2d450207f664df0eddb8f146/store/29e95c15c0092bde7c88c2e45ac64bbb3febde71880b56c8feceadee46eb/sale_21597_primary_image.jpg");
+}
+#section5-image-6 {
+  background-image: url("https://cdnp0.stackassets.com/4bba3ed2a29d1ec4d5e455f6cb966f594e2a5bfa/store/59de3ec9fa8a378e3274e59d7f030b65a925b5fb7831e131a670f2499f39/sale_17095_primary_image.jpg");
+}
+#section5-image-7 {
+  background-image:  url("https://cdnp2.stackassets.com/d48d154ad7f3d33b6f587466b790e39af4d6e2bf/store/17febfdeb1493cdde05189726e84157148c9f73c42850ca4fc4227ebfde8/sale_16301_primary_image.jpg");
+}
+#section5-image-8 {
+  background-image: url("https://cdnp3.stackassets.com/0b442829152188ef5c1de0aff7d72820282f26e0/store/73b9b30bec03d67a0c89bae3aaaddafc5a59895b1edd5194d61ab010f926/sale_20564_primary_image.jpg");
+}
+
+
 /* footer */
 
 footer {
   background-color: rgb(85, 85, 85);
   text-align: center;
+  margin-top: 200px;
 }
 
 footer li {
@@ -591,8 +658,25 @@ footer ul {
   margin: 0;
 }
 
+.accessible-icon {
+  color: white ;
+  background-color: blue;
+  padding: 15px 15px 10px 15px;
+  border: 1px solid black;
+  border-radius: 50%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
 
-
+.accessible-icon:hover {
+  background-color: red;
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+  color: blue ;
+  background-color: white;
+  ;
+}
 /* firstMediaquery */
 
 @media (max-width: 1024px) {
@@ -641,6 +725,7 @@ footer ul {
     padding: 24px 0;
   }
 
+  .section5 h4,
   .section2-card h4 {
     font-size: 14px;
   }
@@ -674,6 +759,12 @@ footer ul {
   .section4 {
     grid-template-columns: 1fr 1fr;
   }
+
+  .accessible-icon{
+    border-radius: 0;
+    padding: 8px 8px 5px 8px;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -732,11 +823,12 @@ footer ul {
     grid-template-columns: 1fr;
     grid-gap: 12px;
   }
-
+  
   .section2-card {
     display: flex;
   }
 
+  .section5-image-container,
   .section2-card img {
     width: 80px;
     height: 80px;
@@ -777,4 +869,21 @@ footer ul {
     background-size: cover;
     background-repeat: no-repeat;
   }
+
+  /* section5 */
+
+  .section5 {
+    display: flex;
+  }
+
+
+  .section5-image-container-discount {
+    display: none;
+  }
+
+
+
+
+
+
 }
