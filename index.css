@@ -4,6 +4,21 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "ARS Maquette";
+  src: url("fonts/ARSMaquettePro-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Avalon";
+  src: url("fonts/Avalon_Bold.ttf");
+}
+
+@font-face {
+  font-family: "Shentox";
+  src: url("fonts/Shentox.ttf");
+}
+
 body {
   height: 120vh;
 }
@@ -14,6 +29,15 @@ img {
 
 h2 {
   font-size: 28px;
+  font-family: "Avalon", sans-serif;
+}
+
+.firstNav,
+.secondNav,
+h3,
+h4,
+.section1 {
+  font-family: "ARS Maquette", sans-serif;
 }
 
 /* GENERAL CLASSES */
@@ -67,6 +91,10 @@ h2 {
 
 .flex-3 {
   flex: 3;
+}
+
+.flex-4 {
+  flex: 4;
 }
 
 .flex-end {
@@ -134,6 +162,7 @@ h2 {
 
 .firstNav {
   background: black;
+  font-size: 13px;
 }
 
 .firstNav a {
@@ -162,6 +191,10 @@ h2 {
 }
 
 /* second nav row */
+.secondNav {
+  font-size: 14px;
+}
+
 .secondNav-left a {
   padding: 12px 4px 12px 12px;
   color: lightgray;
@@ -186,13 +219,6 @@ h2 {
   display: none;
 }
 
-.secondNav-left {
-  /* background-color: orange; */
-}
-.secondNav-right {
-  /* background-color: red; */
-}
-
 /* FIRST BIG IMAGE */
 
 .section1 {
@@ -207,20 +233,20 @@ h2 {
   background-color: blue;
   background-repeat: no-repeat;
   background-size: cover;
-  /* position: relative; */
-  /* padding-left: 20px; */
 }
 
 .section1-card h2 {
   top: 0;
   left: 20px;
-  font-size: 175px;
+  font-size: 56px;
   font-weight: 700;
+  padding: 15px 0;
 }
 
-.section1-card p:nth-child(2) {
+.section1-card > p {
   top: 20px;
   right: 20px;
+  font-size: 14px;
 }
 
 .section1-card-header {
@@ -229,13 +255,12 @@ h2 {
   bottom: 20px;
 }
 
-.section1-card h3 {
-  font-size: 60px;
-  padding-bottom: 15px;
+.section1-card-header p {
+  font-size: 12px;
 }
 
-.smaller-section1-card h3 {
-  font-size: 24px;
+.smaller-section1-card h2 {
+  font-size: 28px;
 }
 
 .section1-card-header a {
