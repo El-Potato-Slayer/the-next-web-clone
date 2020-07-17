@@ -36,7 +36,8 @@ h2 {
 .secondNav,
 h3,
 h4,
-.section1 {
+.section1,
+.section2 {
   font-family: "ARS Maquette", sans-serif;
 }
 
@@ -235,12 +236,17 @@ h4,
   background-size: cover;
 }
 
-.section1-card h2 {
-  top: 0;
+.section1 > div:first-child img {
+  top: 20px;
   left: 20px;
-  font-size: 56px;
-  font-weight: 700;
-  padding: 15px 0;
+  /* max-width: 445px; */
+  max-width: 50%;
+}
+
+.section1-card > div:first-child img {
+  /* top: 20px;
+  left: 20px;
+  max-width: 445px; */
 }
 
 .section1-card > p {
@@ -255,6 +261,10 @@ h4,
   bottom: 20px;
 }
 
+.section1-card-header h2 {
+  font-size: 56px;
+}
+
 .section1-card-header p {
   font-size: 12px;
 }
@@ -263,8 +273,11 @@ h4,
   font-size: 28px;
 }
 
-.section1-card-header a {
+.section1-card-header ul li,
+.section1-card-header ul li a {
   color: gray;
+  display: inline;
+  font-size: 12px;
 }
 
 /* Right images 1 section*/
@@ -523,12 +536,14 @@ h4,
 }
 
 .section4-card div:first-child {
+  margin-top: 2px;
   padding: 10px 12px;
   height: 100px;
   background: #fff4f2;
 }
 
 .section4-card div img {
+  margin-top: 2px;
   height: 100%;
   object-fit: cover;
 }
@@ -564,11 +579,15 @@ h4,
 
   /* article section 1 */
 
-  .section1-card h3 {
+  .section1-card h2 {
     font-size: 40px;
   }
 
-  .smaller-section1-card h3 {
+  .section1-card img {
+    display: none;
+  }
+
+  .smaller-section1-card h2 {
     font-size: 20px;
   }
 
@@ -652,7 +671,6 @@ h4,
     height: 600px;
   }
 
-  .section1 div h2,
   .section1-card > p {
     display: none;
   }
@@ -662,7 +680,7 @@ h4,
     /* height: 400px; */
   }
 
-  .section1-card h3 {
+  .section1-card h2 {
     font-size: 20px;
     padding: 4px 0;
   }
