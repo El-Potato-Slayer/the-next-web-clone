@@ -114,6 +114,10 @@ footer {
   flex: 4;
 }
 
+.flex-5 {
+  flex: 5;
+}
+
 .flex-end {
   justify-content: flex-end;
 }
@@ -288,7 +292,7 @@ footer {
 
 .section1-image-1 {
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/ccs-ariya-chademo-nissan-leaf-charging-cars-electricity-ev-ccs-type-2-port-cable-connector-796x448.png),
-    linear-gradient(transparent, rgba(0, 0, 0) 95%);
+    linear-gradient(orange,rgba(0, 0, 0) 95%);
 }
 
 .section1-image-2 {
@@ -566,7 +570,7 @@ footer ul li {
 }
 
 footer ul:first-child li a {
-  color: hsl(0, 0%, 90%);
+  color: #aaaaaa;
   font-size: 13px;
 }
 
@@ -574,7 +578,7 @@ footer ul:last-child li a {
   color: #aaaaaa;
 }
 
-footer ul:last-child li a:hover {
+footer ul li a:hover {
   color: white;
 }
 
@@ -609,6 +613,12 @@ footer img {
 }
 
 @media (max-width: 1024px) {
+  .section1-image-1 {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/ccs-ariya-chademo-nissan-leaf-charging-cars-electricity-ev-ccs-type-2-port-cable-connector-796x448.png),
+      linear-gradient(transparent,rgba(0, 0, 0) 95%);
+  }
+
+
   .main-container {
     padding: 0 24px;
   }
@@ -637,6 +647,10 @@ footer img {
 
   .section1-card h2 {
     font-size: 40px;
+  }
+
+  .section1-card > p {
+    display: none;
   }
 
   .section1-card img {
@@ -683,6 +697,7 @@ footer img {
 }
 
 @media (max-width: 768px) {
+
   .secondNav-left,
   .firstNav {
     display: none;
@@ -715,10 +730,6 @@ footer img {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 2fr;
     height: 600px;
-  }
-
-  .section1-card > p {
-    display: none;
   }
 
   .section1-article2 {
