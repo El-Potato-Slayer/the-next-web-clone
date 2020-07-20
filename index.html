@@ -9,7 +9,7 @@
       src="https://kit.fontawesome.com/52c781ef58.js"
       crossorigin="anonymous"
     ></script>
-    <title>Document</title>
+    <title>TNW</title>
   </head>
   <body>
     <div class="flex flex-row">
@@ -22,7 +22,6 @@
       </div>
       <div class="flex flex-column navBox trial">
         <nav class="firstNav flex">
-          <!-- RowLeft -->
           <div class="firstNav-left flex flex-3">
             <a href="#">News</a>
             <a href="#">Events</a>
@@ -31,7 +30,6 @@
             <a href="#">Spaces</a>
             <a href="#">Terms & Conditions</a>
           </div>
-          <!-- rowRight -->
           <div class="flex firstNav-rigth flex-1 flex-end">
             <a href="#">About</a>
             <a href="#">Avertise</a>
@@ -39,7 +37,6 @@
             <a href="#">Contact</a>
           </div>
         </nav>
-        <!-- second collumn -->
         <nav class="secondNav flex">
           <div class="secondNav-left flex flex-4">
             <a href="#">LATEST</a>
@@ -51,10 +48,10 @@
           </div>
           <div class="secondNav-right flex flex-1 flex-end">
             <button>
-              <a href="#"><i class="fas fa-search fa-lg"> </i></a>
+              <i class="fas fa-search fa-lg"></i>
             </button>
             <button id="hamburger-icon">
-              <a href="#"><i class="fas fa-hamburger fa-lg"></i></a>
+              <i class="fas fa-hamburger fa-lg"></i>
             </button>
           </div>
         </nav>
@@ -62,57 +59,65 @@
     </div>
 
     <div class="section1 grid">
-      <!-- firstBigImage -->
       <div
         class="section1-card text-white position-relative img-overlay section1-image-1"
       >
-        <h2 class="position-absolute">TNW</h2>
+        <a href="#">
+          <img
+            class="position-absolute"
+            src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg"
+            alt=""
+          />
+        </a>
         <p class="position-absolute">Tuesday - July 14, 2020</p>
         <div class="section1-card-header position-absolute">
           <p>GEAR</p>
-          <h2>Here’s how to scan a QR code on an iPhone</h2>
+          <h2>
+            <a class="text-white" href=""
+              >Here’s how to scan a QR code on an iPhone</a
+            >
+          </h2>
           <ul>
-            <a href="#">by Callum Booth</a>
-            <a href="#"><i class="far fa-clock"></i> 40 minutes ago </a>
-            <a href="#"><i class="fas fa-share-alt"></i> 4</a>
+            <li>by <a href="#">Callum Booth</a></li>
+            <li><i class="far fa-clock"></i> 40 minutes ago</li>
+            <li><i class="fas fa-share-alt"></i> 4</li>
           </ul>
         </div>
       </div>
-
-      <!-- smallImages -->
-
       <div class="section1-article2 grid">
-        <!-- firstImage -->
         <div
           class="section1-card text-white smaller-section1-card position-relative img-overlay section1-image-2"
         >
           <div class="section1-card-header position-absolute">
             <p>TECH</p>
-            <h2>
-              Unlike other tech giants, Amazon won't say how many workers review
-              posts
-            </h2>
+            <a href="#">
+              <h2 class="text-white">
+                Unlike other tech giants, Amazon won't say how many workers
+                review posts
+              </h2>
+            </a>
             <ul>
-              <a href="#">by Callum Booth</a>
-              <a href="#"><i class="far fa-clock"></i> 2 hours ago </a>
-              <a href="#"><i class="fas fa-share-alt"></i> 4</a>
+              <li>by <a href="#">Guap Gum</a></li>
+              <li><i class="far fa-clock"></i> 6 hours ago</li>
+              <li><i class="fas fa-share-alt"></i> 4</li>
             </ul>
           </div>
         </div>
-        <!-- SecondImage -->
         <div
           class="section1-card text-white smaller-section1-card position-relative img-overlay section1-image-3"
         >
           <div class="section1-card-header position-absolute">
             <p>TECH</p>
-
-            <h2>
-              Coronavirus changed our sex lives — can tech fill our horny void?
-            </h2>
+            <a href="#">
+              <h2 class="text-white">
+                Coronavirus changed our sex lives — can tech fill our horny
+                void?
+              </h2>
+            </a>
             <ul>
-              <a href="#">by Callum Booth</a>
-              <a href="#"><i class="far fa-clock"></i> 3 hours ago </a>
-              <a href="#"><i class="fas fa-share-alt"></i> 3</a>
+              <li>by <a href="#">Poes in boots</a></li>
+              <li><i class="far fa-clock"></i> 8 ago</li>
+              <li><i class="fas fa-share-alt"></i> 3</li>
             </ul>
           </div>
         </div>
@@ -124,111 +129,133 @@
         <h2 class="header-link">
           Latest news <i class="fas fa-chevron-right fa-xs"></i>
         </h2>
-        <div class="section2-grid grid col-4 grid-gap-24">
-          <article class="section2-card">
+        <div class="grid-col-4 grid-gap-24">
+          <article class="card-type-1">
             <img
               src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/sheets_formula-516x270.png"
               alt=""
             />
             <div>
-              <h4>
-                Holy sheet: How to embed data from one Google Sheet in another
-              </h4>
-              <p>Yaron Yitzhak 1 Hour ago</p>
+              <a href="#">
+                <h4>
+                  Holy sheet: How to embed data from one Google Sheet in another
+                </h4>
+              </a>
+              <p class="text-gray">Yaron Yitzhak &bull; 1 Hour ago</p>
             </div>
           </article>
-          <article class="section2-card">
+
+          <article class="card-type-1">
             <img
               src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/header-image-how-to-scan-a-QR-code-iPhone-iOS-Apple-516x270.png"
               alt=""
             />
             <div>
-              <h4>
-                Here’s how to scan a QR code on an iPhone
-              </h4>
-              <p>Callum Booth 3 Hour ago</p>
+              <a href="#">
+                <h4>
+                  Here’s how to scan a QR code on an iPhone
+                </h4>
+              </a>
+              <p class="text-gray">Callum Booth &bull; 3 Hours ago</p>
             </div>
           </article>
-          <article class="section2-card">
+
+          <article class="card-type-1">
             <img
               src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/TNW-CAD-540x270.jpeg"
               alt=""
             />
             <div>
-              <h4>
-                How to turn on your computer
-              </h4>
-              <p>Guap Muap 3 Hour ago</p>
+              <a href="#">
+                <h4>
+                  How to turn on your computer
+                </h4>
+              </a>
+              <p class="text-gray">Guap Muap &bull; 3 Hour ago</p>
             </div>
           </article>
-          <article class="section2-card">
+
+          <article class="card-type-1">
             <img
               src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/virtual-office-gq-516x270.png"
               alt=""
             />
             <div>
-              <h4>
-                4 effective ways to make your virtual workplace more inclusive
-              </h4>
-              <p>Giselle Yefaris 4 Hour ago</p>
+              <a href="#">
+                <h4>
+                  4 effective ways to make your virtual workplace more inclusive
+                </h4>
+              </a>
+              <p class="text-gray">Giselle Yefaris &bull; 4 Hour ago</p>
             </div>
           </article>
-          <article class="section2-card">
+
+          <article class="card-type-1">
             <img
               src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Defense-Titan-540x270.jpg"
               alt=""
             />
             <div>
-              <h4>
-                The Defense Titan is a beast of mobile power in a pinch,
-                anywhere you are
-              </h4>
-              <p>TNW Deals 5 Hour ago</p>
+              <a href="#">
+                <h4>
+                  The Defense Titan is a beast of mobile power in a pinch,
+                  anywhere you are
+                </h4>
+              </a>
+              <p class="text-gray">TNW Deals &bull; 5 Hour ago</p>
             </div>
           </article>
-          <article class="section2-card">
+
+          <article class="card-type-1">
             <img
               src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Screenshot-2020-07-15-at-3.02.20-PM-540x268.png"
               alt=""
             />
             <div>
-              <h4>
-                Google and Reliance Jio team up to build an affordable Android
-                phone for India
-              </h4>
-              <p>Ivan Mheta 5 Hour ago</p>
+              <a href="#">
+                <h4>
+                  Google and Reliance Jio team up to build an affordable Android
+                  phone for India
+                </h4>
+              </a>
+              <p class="text-gray">Ivan Mheta &bull; 5 Hour ago</p>
             </div>
           </article>
-          <article class="section2-card">
+
+          <article class="card-type-1">
             <img
               src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-512x270.jpg"
               alt=""
             />
             <div>
-              <h4>
-                Satoshi Nakaboto: ‘PayPal letter confirms it's working on crypto
-                capabilities’
-              </h4>
-              <p>Satoshi Nakaboto 6 Hour ago</p>
+              <a href="#">
+                <h4>
+                  Satoshi Nakaboto: ‘PayPal letter confirms it's working on
+                  crypto capabilities’
+                </h4>
+              </a>
+              <p class="text-gray">Satoshi Nakaboto &bull; 6 Hour ago</p>
             </div>
           </article>
-          <article class="section2-card">
+
+          <article class="card-type-1">
             <img
               src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/uber-lyft-massachusetts-car-ride-share-hail-future-vehicle-ev-workers-ab5-479x270.png"
               alt=""
             />
             <div>
-              <h4>
-                Uber and Lyft sued by Massachusetts over worker
-                misclassification
-              </h4>
-              <p>Matthew Beedham</p>
+              <a href="#">
+                <h4>
+                  Uber and Lyft sued by Massachusetts over worker
+                  misclassification
+                </h4>
+              </a>
+              <p class="text-gray">Matthew Beedham &bull; 122 years ago</p>
             </div>
           </article>
         </div>
       </section>
 
-      <!-- section 3 -->
       <section class="section3">
         <div class="section3-header flex">
           <div class="flex-1">
@@ -237,117 +264,138 @@
               <i class="fas fa-chevron-right fa-xs"></i>
             </h2>
           </div>
-          <div class="flex flex-1 flex-end flex-align-items-end">
+          <div class="flex flex-1 flex-end align-center">
             <a class="header-link" href="#">Add info</a>
             <a class="header-link" href="#">Get updates by email</a>
             <a class="header-link" href="#">See more</a>
           </div>
         </div>
 
-        <div class="section3-grid grid col-4 grid-gap-24">
-          <!-- first -->
-          <div>
-            <div class="section3-grid-header position-relative">
-              <h4 class="text-white">GYANT</h4>
-              <p>$13.6M</p>
-              <p>SERIES A</p>
+        <div class="grid-col-4 grid-gap-24">
+          <div class="card-type-2 position-relative">
+            <a href="#" class="card-type-2-header">
+              <h4 class="text-white">Magicpin</h4>
+              <div>
+                <h4>$7M</h4>
+                <h5 class="text-gray">Venture Capital</h5>
+              </div>
               <img
-                src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F855194327487610881%2Fg1QA8Jw5.jpg&signature=5016a9cdab7599b938c52664b65eaec0"
+                class="position-absolute"
+                src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1209072475918589952%2F7jZyL008.jpg&signature=f0ab301dc5803dd01e9b653050e41b73"
                 alt=""
               />
-            </div>
-            <div class="section3-body">
-              <a href="#"><i class="fa fa-tag"></i> SaaS, +3 </a>
-              <a href="#"
-                ><i class="fas fa-suitcase"></i> Dragoneer Investment Group</a
-              >
-            </div>
-            <div class="section3-footer">
-              <p>
-                Next Century Spirits Raises $6M in Series C Funding
-                <span>on FinSMEs</span>
-              </p>
+            </a>
+            <div class="card-type-2-body">
+              <div class="flex flex-column space-evenly">
+                <a href="#"><i class="fa fa-tag"></i> SaaS, +3 </a>
+                <a href="#"
+                  ><i class="fas fa-suitcase"></i> Dragoneer Investment Group</a
+                >
+              </div>
+              <div>
+                <p>
+                  Samsung’s venture arm invests in hyperlocal discovery startup
+                  Magicpin <span>on VCCircle</span>
+                </p>
+              </div>
             </div>
           </div>
-          <!-- second -->
-          <div>
-            <div class="section3-grid-header position-relative">
-              <h4 class="text-white">Deciphex</h4>
-              <p>$6.2M</p>
-              <p>SERIES A</p>
+
+          <div class="card-type-2 position-relative">
+            <a href="#" class="card-type-2-header">
+              <h4 class="text-white">Orbital Witness</h4>
+              <div>
+                <h4>$3.3M</h4>
+                <h5 class="text-gray">Seed fund</h5>
+              </div>
               <img
-                src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F860534380405641216%2FsK9bxKTV.jpg&signature=3f922e2c3e24c62e7a23ddcf3f936e15"
+                class="position-absolute"
+                src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F903571262462709760%2F_KoRvjbe.jpg&signature=a149476fdf53491f910408be369f4031"
                 alt=""
               />
-            </div>
-            <div class="section3-body">
-              <a href="#"><i class="fa fa-tag"></i> Biotechnology </a>
-              <a href="#"
-                ><i class="fas fa-suitcase"></i> ACT Venture Capital, +5</a
-              >
-            </div>
-            <div class="section3-footer">
-              <p>
-                Dublin-based AI software firm Deciphex closes €5.45m in Series A
-                funding <span>on SiliconRepublic</span>
-              </p>
+            </a>
+            <div class="card-type-2-body">
+              <div class="flex flex-column space-evenly">
+                <a href="#"><i class="fa fa-tag"></i> Information Services </a>
+                <a href="#"><i class="fas fa-suitcase"></i> Seedcamp, 3+</a>
+              </div>
+              <div>
+                <p>
+                  Orbital Witness raises £3.3m seed funding
+                  <span>on UKTN (UK Tech News)</span>
+                </p>
+              </div>
             </div>
           </div>
-          <!-- third -->
-          <div>
-            <div class="section3-grid-header position-relative">
-              <h4 class="text-white">KoolSkools</h4>
-              <p>$416K</p>
-              <p>VENTURE CAPITAL</p>
+
+          <div class="card-type-2 position-relative">
+            <a href="#" class="card-type-2-header">
+              <h4 class="text-white">Fair for You</h4>
+              <div>
+                <h4>$7.5M</h4>
+                <h5 class="text-gray">Venture Capital</h5>
+              </div>
               <img
-                src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F654601108501975040%2FGCoMlT_n.jpg&signature=6da67994f04ad65e9b64e5c31d2f4643"
+                class="position-absolute"
+                src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F658340981616570368%2FAUIOaetj.jpg&signature=2f86ee5700e1454f761a49dd7d660b02"
                 alt=""
               />
-            </div>
-            <div class="section3-body">
-              <a href="#"><i class="fa fa-tag"></i> Fashion</a>
-              <a href="#"
-                ><i class="fas fa-suitcase"></i> Maroc Numeric Fund II</a
-              >
-            </div>
-            <div class="section3-footer">
-              <p>
-                KoolSkools raises $400,000 to expand in Morocco and
-                internationally <span>on Sam Wakoba</span>
-              </p>
+            </a>
+            <div class="card-type-2-body">
+              <div class="flex flex-column space-evenly">
+                <a href="#"><i class="fa fa-tag"></i> Financial Services </a>
+                <a href="#"><i class="fas fa-suitcase"></i> Fair4All, +6 </a>
+              </div>
+              <div>
+                <p>
+                  Non-profit Fair for You lands £7.5m to take on credit sector
+                  <span>on FinTech Futures</span>
+                </p>
+              </div>
             </div>
           </div>
-          <!-- fourth -->
-          <div>
-            <div class="section3-grid-header position-relative">
-              <h4 class="text-white">Drover</h4>
-              <p>$20.5M</p>
-              <p>VENTURE CAPITAL</p>
+
+          <div class="card-type-2 position-relative">
+            <a href="#" class="card-type-2-header">
+              <h4 class="text-white">DefibMachines</h4>
+              <div>
+                <h4>$100K</h4>
+                <h5 class="text-gray">Venture Capital</h5>
+              </div>
               <img
-                src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1147065598603661312%2Fk-jGvcYw.jpg&signature=8fbf640e33209bea71d1cba75558ac58"
+                class="position-absolute"
+                src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F661184522386583552%2FNVkJuLqH.png&signature=92eb8d609b61eaf34d2d101024692916"
                 alt=""
               />
-            </div>
-            <div class="section3-body">
-              <a href="#"><i class="fa fa-tag"></i> Mobile, +5</a>
-              <a href="#"
-                ><i class="fas fa-suitcase"></i> Forward Partners, +9</a
-              >
-            </div>
-            <div class="section3-footer">
-              <p>Drover Raises £20.5M in Funding <span>on FinSMEs</span></p>
+            </a>
+            <div class="card-type-2-body">
+              <div class="flex flex-column space-evenly">
+                <a href="#"
+                  ><i class="fa fa-tag"></i> Supply Chain Management
+                </a>
+                <a href="#"
+                  ><i class="fas fa-suitcase"></i> Northern Powerhouse
+                  Investment Fund (NPIF)
+                </a>
+              </div>
+              <div>
+                <p>
+                  Medical equipment firm doubles workforce with six-figure
+                  investment on <span>Bdaily News</span>
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- section 4 -->
-      <div class="section4 grid col-3 grid-gap-24">
-        <section class="section4-card">
-          <a href="#"
-            ><h2 class="header-link">
-              Hard Fork <i class="fas fa-chevron-right fa-xs"></i></h2
-          ></a>
+      <div class="section4 grid-col-3 grid-gap-24">
+        <section class="card-type-3">
+          <a href="#">
+            <h2 class="header-link">
+              Hard Fork <i class="fas fa-chevron-right fa-xs"></i>
+            </h2>
+          </a>
           <article class="flex flex-align-items-end img-overlay">
             <header class="text-white">
               <p>MOST POPULAR</p>
@@ -357,20 +405,20 @@
                   all of Kuwait’
                 </h3>
               </a>
-              <ul>
-                <li>Satoshi Nakaboto</li>
-                <li>2 hours ago</li>
-              </ul>
+              <span>Satoshi Nakaboto</span>
+              <span>&bull; 2 hours ago</span>
             </header>
           </article>
 
           <div class="flex">
             <div class="flex-2 flex flex-column space-evenly">
               <p>LATEST</p>
-              <h4>
-                Fake Texan barbecue business gets $1M PPP loan, trades crypto,
-                profits???
-              </h4>
+              <a href="#">
+                <h4>
+                  Fake Texan barbecue business gets $1M PPP loan, trades crypto,
+                  profits???
+                </h4>
+              </a>
             </div>
             <a href="#" class="flex-1">
               <img
@@ -381,26 +429,38 @@
           </div>
           <ul>
             <li>
-              Satoshi Nakaboto: ‘PayPal letter confirms it's working on crypto
-              capabilities’
-            </li>
-            <li>Google invests $4.5B in Jio Platforms for a 7.7% stake</li>
-            <li>
-              Satoshi Nakaboto: ‘Bitcoin mining difficulty hits new all-time
-              high’
+              <a href="#">
+                Satoshi Nakaboto: ‘PayPal letter confirms it's working on crypto
+                capabilities’
+              </a>
             </li>
             <li>
-              Google reportedly in talks to make $4B investment into Jio
-              Platforms
+              <a href="#">
+                Google invests $4.5B in Jio Platforms for a 7.7% stake
+              </a>
             </li>
             <li>
-              Tesla just became a top 10 US company, but it's still not in the
-              S&P 500
+              <a href="#">
+                Satoshi Nakaboto: ‘Bitcoin mining difficulty hits new all-time
+                high’
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Google reportedly in talks to make $4B investment into Jio
+                Platforms
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Tesla just became a top 10 US company, but it's still not in the
+                S&P 500
+              </a>
             </li>
           </ul>
         </section>
 
-        <section class="section4-card">
+        <section class="card-type-3">
           <a href="#"
             ><h2 class="header-link">
               Apps <i class="fas fa-chevron-right fa-xs"></i></h2
@@ -414,10 +474,8 @@
                   accounts in massive Bitcoin scam
                 </h3>
               </a>
-              <ul>
-                <li>Napier Lopez</li>
-                <li>12 hours ago</li>
-              </ul>
+              <span>Napier Lopez</span>
+              <span>&bull; 12 hours ago</span>
             </header>
           </article>
 
@@ -437,32 +495,43 @@
           </div>
           <ul>
             <li>
-              Only 8 seasons of classic Law & Order are currently on Peacock
+              <a href="#">
+                Only 8 seasons of classic Law & Order are currently on Peacock
+              </a>
             </li>
             <li>
-              Hackers take over Obama, Musk, Apple, and dozens more Twitter
-              accounts in massive Bitcoin scam
+              <a href="#">
+                Hackers take over Obama, Musk, Apple, and dozens more Twitter
+                accounts in massive Bitcoin scam
+              </a>
             </li>
             <li>
-              NBC's Peacock streaming service has launched -- here's how to get
-              started
+              <a href="#">
+                NBC's Peacock streaming service has launched -- here's how to
+                get started
+              </a>
             </li>
             <li>
-              This 3D app lets you design the perfect desk setup before buying
-              anything
+              <a href="#">
+                This 3D app lets you design the perfect desk setup before buying
+                anything
+              </a>
             </li>
             <li>
-              It's not just you: WhatsApp is down for many users [Update: It's
-              back]
+              <a href="#">
+                It's not just you: WhatsApp is down for many users [Update: It's
+                back]
+              </a>
             </li>
           </ul>
         </section>
 
-        <section class="section4-card">
-          <a href="#"
-            ><h2 class="header-link">
-              Gear <i class="fas fa-chevron-right fa-xs"></i></h2
-          ></a>
+        <section class="card-type-3">
+          <a href="#">
+            <h2 class="header-link">
+              Gear <i class="fas fa-chevron-right fa-xs"></i>
+            </h2>
+          </a>
           <article class="flex flex-align-items-end img-overlay">
             <header class="text-white">
               <p>MOST POPULAR</p>
@@ -472,10 +541,8 @@
                   consumers
                 </h3>
               </a>
-              <ul>
-                <li>Callumn Booth</li>
-                <li>21 hours ago</li>
-              </ul>
+              <span>Callumn Booth</span>
+              <span>&bull; 21 hours ago</span>
             </header>
           </article>
 
@@ -495,31 +562,42 @@
           </div>
           <ul>
             <li>
-              Here’s how to scan a QR code on an iPhone
+              <a href="#">
+                Here’s how to scan a QR code on an iPhone
+              </a>
             </li>
             <li>
-              Google 'accidentally' leaks the Pixel 4a in its own store
+              <a href="#">
+                Google 'accidentally' leaks the Pixel 4a in its own store
+              </a>
             </li>
             <li>
-              The Superstrata ebike is made of 3D-printed carbon fiber and
-              tailored to your body
+              <a href="#">
+                The Superstrata ebike is made of 3D-printed carbon fiber and
+                tailored to your body
+              </a>
             </li>
             <li>
-              The evolution of iPhone screen-to-body ratios — shown by our
-              sexy-ass graph
+              <a href="#">
+                The evolution of iPhone screen-to-body ratios — shown by our
+                sexy-ass graph
+              </a>
             </li>
             <li>
-              Apple reportedly planning two MacBooks with ARM processors for
-              2020
+              <a href="#">
+                Apple reportedly planning two MacBooks with ARM processors for
+                2020
+              </a>
             </li>
           </ul>
         </section>
 
-        <section class="section4-card">
-          <a href="#"
-            ><h2 class="header-link">
-              Tech <i class="fas fa-chevron-right fa-xs"></i></h2
-          ></a>
+        <section class="card-type-3">
+          <a href="#">
+            <h2 class="header-link">
+              Tech <i class="fas fa-chevron-right fa-xs"></i>
+            </h2>
+          </a>
           <article class="flex flex-align-items-end img-overlay">
             <header class="text-white">
               <p>MOST POPULAR</p>
@@ -529,10 +607,8 @@
                   cycling safer
                 </h3>
               </a>
-              <ul>
-                <li>Cities Today</li>
-                <li>19 hours ago</li>
-              </ul>
+              <span>Cities Today</span>
+              <span>&bull; 19 hours ago</span>
             </header>
           </article>
           <div class="flex">
@@ -552,31 +628,42 @@
           </div>
           <ul>
             <li>
-              An introduction on how to export and import JavaScript modules
+              <a href="#">
+                An introduction on how to export and import JavaScript modules
+              </a>
             </li>
             <li>
-              Coronavirus has forced escooter providers and cities to work out
-              their differences
+              <a href="#">
+                Coronavirus has forced escooter providers and cities to work out
+                their differences
+              </a>
             </li>
             <li>
-              This UK intersection emulates Dutch road design to make city
-              cycling safer
+              <a href="#">
+                This UK intersection emulates Dutch road design to make city
+                cycling safer
+              </a>
             </li>
             <li>
-              Here's what’s stopping AI from reaching human-like understanding
+              <a href="#">
+                Here's what’s stopping AI from reaching human-like understanding
+              </a>
             </li>
             <li>
-              You're probably making these Python mistakes — here's how to avoid
-              them
+              <a href="#">
+                You're probably making these Python mistakes — here's how to
+                avoid them
+              </a>
             </li>
           </ul>
         </section>
 
-        <section class="section4-card">
-          <a href="#"
-            ><h2 class="header-link">
-              Creative <i class="fas fa-chevron-right fa-xs"></i></h2
-          ></a>
+        <section class="card-type-3">
+          <a href="#">
+            <h2 class="header-link">
+              Creative <i class="fas fa-chevron-right fa-xs"></i>
+            </h2>
+          </a>
           <article class="flex flex-align-items-end img-overlay">
             <header class="text-white">
               <p>MOST POPULAR</p>
@@ -586,10 +673,8 @@
                   classic film cameras
                 </h3>
               </a>
-              <ul>
-                <li>Mix</li>
-                <li>23 hours ago</li>
-              </ul>
+              <span>Mix</span>
+              <span>&bull; 23 hours ago</span>
             </header>
           </article>
           <div class="flex">
@@ -608,29 +693,40 @@
           </div>
           <ul>
             <li>
-              There’s an actual science to good Instagram photos
+              <a href="#">
+                There’s an actual science to good Instagram photos
+              </a>
             </li>
             <li>
-              This CSS library makes it easy to design Windows XP-inspired UIs
+              <a href="#">
+                This CSS library makes it easy to design Windows XP-inspired UIs
+              </a>
             </li>
             <li>
-              This AI wrote such emo lyrics that humans thought it was My
-              Chemical Romance
+              <a href="#">
+                This AI wrote such emo lyrics that humans thought it was My
+                Chemical Romance
+              </a>
             </li>
             <li>
-              This CSS library makes it easy to build Windows 98-inspired UIs
+              <a href="#">
+                This CSS library makes it easy to build Windows 98-inspired UIs
+              </a>
             </li>
             <li>
-              Why we are hardwired to focus on the wrong parts of our product
+              <a href="#">
+                Why we are hardwired to focus on the wrong parts of our product
+              </a>
             </li>
           </ul>
         </section>
 
-        <section class="section4-card">
-          <a href="#"
-            ><h2 class="header-link">
-              Insights <i class="fas fa-chevron-right fa-xs"></i></h2
-          ></a>
+        <section class="card-type-3">
+          <a href="#">
+            <h2 class="header-link">
+              Insights <i class="fas fa-chevron-right fa-xs"></i>
+            </h2>
+          </a>
           <article class="flex flex-align-items-end img-overlay">
             <header class="text-white">
               <p>MOST POPULAR</p>
@@ -639,10 +735,8 @@
                   You need a 20-minute power nap at work — trust me
                 </h3>
               </a>
-              <ul>
-                <li>Yessi Bello Perez</li>
-                <li>5 hours ago</li>
-              </ul>
+              <span>Yessi Bello Perez</span>
+              <span>&bull; 5 hours ago</span>
             </header>
           </article>
           <div class="flex">
@@ -662,29 +756,40 @@
           </div>
           <ul>
             <li>
-              There’s yet another proposal for an EV charger emoji
+              <a href="#">
+                There’s yet another proposal for an EV charger emoji
+              </a>
             </li>
             <li>
-              How to inspire creativity from your remote workers
+              <a href="#">
+                How to inspire creativity from your remote workers
+              </a>
             </li>
             <li>
-              Apple CarKey is out, but you’ll need a new BMW to use it
+              <a href="#">
+                Apple CarKey is out, but you’ll need a new BMW to use it
+              </a>
             </li>
             <li>
-              You need a 20-minute power nap at work — trust me
+              <a href="#">
+                You need a 20-minute power nap at work — trust me
+              </a>
             </li>
             <li>
-              Fake Texan barbecue business gets $1M PPP loan, trades crypto,
-              profits???
+              <a href="#">
+                Fake Texan barbecue business gets $1M PPP loan, trades crypto,
+                profits???
+              </a>
             </li>
           </ul>
         </section>
 
-        <section class="section4-card">
-          <a href="#"
-            ><h2 class="header-link">
-              Podium <i class="fas fa-chevron-right fa-xs"></i></h2
-          ></a>
+        <section class="card-type-3">
+          <a href="#">
+            <h2 class="header-link">
+              Podium <i class="fas fa-chevron-right fa-xs"></i>
+            </h2>
+          </a>
           <article class="flex flex-align-items-end img-overlay">
             <header class="text-white">
               <p>MOST POPULAR</p>
@@ -694,10 +799,8 @@
                   guarantee conversion
                 </h3>
               </a>
-              <ul>
-                <li>Mix</li>
-                <li>23 hours ago</li>
-              </ul>
+              <span>Mix</span>
+              <span>&bull; 23 hours ago</span>
             </header>
           </article>
           <div class="flex">
@@ -716,30 +819,41 @@
           </div>
           <ul>
             <li>
-              Tech in Latin America: An entrepreneur’s guide to May’s startup
-              news
+              <a href="#">
+                Tech in Latin America: An entrepreneur’s guide to May’s startup
+                news
+              </a>
             </li>
             <li>
-              Coming out trans in tech: An entrepreneur's experience
+              <a href="#">
+                Coming out trans in tech: An entrepreneur's experience
+              </a>
             </li>
             <li>
-              An entrepreneur’s guide to COVID-19 tech news in May
+              <a href="#">
+                An entrepreneur’s guide to COVID-19 tech news in May
+              </a>
             </li>
             <li>
-              Why Gary Vaynerchuk's 12 hour TikTok telethon revealed a gentler
-              side
+              <a href="#">
+                Why Gary Vaynerchuk's 12 hour TikTok telethon revealed a gentler
+                side
+              </a>
             </li>
             <li>
-              No need to mourn the death of the third-party cookie
+              <a href="#">
+                No need to mourn the death of the third-party cookie
+              </a>
             </li>
           </ul>
         </section>
 
-        <section class="section4-card">
-          <a href="#"
-            ><h2 class="header-link">
-              Distract <i class="fas fa-chevron-right fa-xs"></i></h2
-          ></a>
+        <section class="card-type-3">
+          <a href="#">
+            <h2 class="header-link">
+              Distract <i class="fas fa-chevron-right fa-xs"></i>
+            </h2>
+          </a>
           <article class="flex flex-align-items-end img-overlay">
             <header class="text-white">
               <p>MOST POPULAR</p>
@@ -749,10 +863,8 @@
                   me
                 </h3>
               </a>
-              <ul>
-                <li>Mix</li>
-                <li>1 Day ago</li>
-              </ul>
+              <span>Mix</span>
+              <span>&bull; 1 Day ago</span>
             </header>
           </article>
           <div class="flex">
@@ -772,27 +884,37 @@
           </div>
           <ul>
             <li>
-              Call of Duty glitch lets Warzone tricksters gain unfair advantage
-              against rivals
+              <a href="#">
+                Call of Duty glitch lets Warzone tricksters gain unfair
+                advantage against rivals
+              </a>
             </li>
             <li>
-              We did the math: iPhone screen sizes ARE bigger now
+              <a href="#">
+                We did the math: iPhone screen sizes ARE bigger now
+              </a>
             </li>
             <li>
-              Watch Tesla’s meteoric rise — set to techno-remixed Elon Musk
-              tweets
+              <a href="#">
+                Watch Tesla’s meteoric rise — set to techno-remixed Elon Musk
+                tweets
+              </a>
             </li>
             <li>
-              Hey Apple, here's some other shit not to include with iPhones
+              <a href="#">
+                Hey Apple, here's some other shit not to include with iPhones
+              </a>
             </li>
             <li>
-              Blackpink takes back the YouTube crown from BTS with
-              record-breaking new video
+              <a href="#">
+                Blackpink takes back the YouTube crown from BTS with
+                record-breaking new video
+              </a>
             </li>
           </ul>
         </section>
 
-        <section class="section4-card">
+        <section class="card-type-3">
           <a href="#"
             ><h2 class="header-link">
               Launch <i class="fas fa-chevron-right fa-xs"></i></h2
@@ -806,10 +928,8 @@
                   week
                 </h3>
               </a>
-              <ul>
-                <li>Matthew Beedham</li>
-                <li>6 Days ago</li>
-              </ul>
+              <span>Matthew Beedham</span>
+              <span>&bull; 6 Days ago</span>
             </header>
           </article>
           <div class="flex">
@@ -829,177 +949,294 @@
           </div>
           <ul>
             <li>
-              Facebook-backed Reliance Jio pilots basic grocery ordering service
-              on WhatsApp in India
+              <a href="#">
+                Facebook-backed Reliance Jio pilots basic grocery ordering
+                service on WhatsApp in India
+              </a>
             </li>
             <li>
-              Google's coronavirus information site is now live
+              <a href="#">
+                Google's coronavirus information site is now live
+              </a>
             </li>
             <li>
-              The hyper-compact Microlino 2.0 EV is almost too cute for words
+              <a href="#">
+                The hyper-compact Microlino 2.0 EV is almost too cute for words
+              </a>
             </li>
             <li>
-              TNW announces Neural: A blog for human-centric AI news and
-              analysis
+              <a href="#">
+                TNW announces Neural: A blog for human-centric AI news and
+                analysis
+              </a>
             </li>
             <li>
-              PSA: Amazon Fresh grocery deliveries are now free for US Prime
-              members
+              <a href="#">
+                PSA: Amazon Fresh grocery deliveries are now free for US Prime
+                members
+              </a>
             </li>
           </ul>
         </section>
       </div>
 
-      <!-- section 5, repeting section 2 -->
-      <section class="section2">
+      <section class="section5">
         <h2 class="header-link">
-          Latest news <i class="fas fa-chevron-right fa-xs"></i>
+          Latest deals <i class="fas fa-chevron-right fa-xs"></i>
         </h2>
-        <div class="section2-grid grid col-4 grid-gap-24">
-
-          <!-- 1entry -->
-          <article class="section5">
-            <div id="section5-image-1" class="section5-image-container">
-              <div class="section5-image-container-discount">
-                <p>97 % OFF</p>
-              </div>
+        <div class="grid-col-4 grid-gap-24">
+          <article class="card-type-1">
+            <div class="position-relative">
+              <a href="#">
+                <img
+                  src="https://cdnp0.stackassets.com/3e78bbb7980969a1bcd223a42e7e40915a93aae6/store/34e34ac3bb8f34d4635318a13f340854fc52d3b845744485bba64f221379/sale_29369_primary_image.jpg"
+                  alt=""
+                />
+                <div
+                  class="discount-container flex position-absolute flex-align-items-end justify-center"
+                >
+                  <p class="">95% OFF</p>
+                </div>
+              </a>
             </div>
-            <div>
-              <h4>
-                The Superhuman Lifetime Subscription Bundle
-              </h4>
-              <p> <span>$2957</span> $79</p>
+            <div class="card-type-1-body">
+              <a href="#">
+                <h4>The Superhuman Lifetime Subscription Bundle</h4>
+              </a>
+              <span>$2957</span>
+              <span>$79</span>
             </div>
           </article>
-        <!-- 2Entry -->
-        <article class="section5">
-          <div id="section5-image-2" class="section5-image-container">
-            <div class="section5-image-container-discount">
-              <p>100 % OFF</p>
+
+          <article class="card-type-1">
+            <div class="position-relative">
+              <a href="#">
+                <img
+                  src="https://cdnp2.stackassets.com/6179061a340aec6fb745648722689d80eb1f1165/store/f861de62ba66a53247f38806f00d41550a956e426fc22b7963aafc23c1b3/sale_28210_primary_image.jpg"
+                  alt=""
+                />
+                <div
+                  class="discount-container flex position-absolute flex-align-items-end justify-center"
+                >
+                  <p class="">100% OFF</p>
+                </div>
+              </a>
             </div>
-          </div>
-          <div>
-            <h4>
-              FREE: Leadership & Management Diploma 4-Week Course
-            </h4>
-            <p> <span>$49</span> $0</p>
-          </div>
-        </article>
-        <!-- 3Entry -->
-        <article class="section5">
-          <div id="section5-image-5" class="section5-image-container">
-            <!-- <div class="section5-image-container-discount">
-              <p>97 % OFF</p>
-            </div> -->
-          </div>
-          <div>
-            <h4>
-              Goals: The Habit & Goal Tracking App for High Achievers
-            </h4>
-            <p> <span>$49</span> $24.99</p>
-          </div>
-        </article>
-        <!-- 4Entry -->
-        <article class="section5">
-          <div id="section5-image-4" class="section5-image-container">
-            <div class="section5-image-container-discount">
-              <p>97 % OFF</p>
+            <div class="card-type-1-body">
+              <a href="#">
+                <h4>FREE: Leadership & Management Diploma 4-Week Course</h4>
+              </a>
+              <span>$49</span>
+              <span>$0</span>
             </div>
-          </div>
-          <div>
-            <h4>
-              RankTools Pro SEO Tool: Lifetime Subscription
-            </h4>
-            <p> <span>$11.99</span> $29.99</p>
-          </div>
-        </article>
-        <!-- 5Entry -->
-        <article class="section5">
-          <div id="section5-image-5" class="section5-image-container">
-            <div class="section5-image-container-discount">
-              <p>98 % OFF</p>
+          </article>
+
+          <article class="card-type-1">
+            <div class="position-relative">
+              <a href="#">
+                <img
+                  src="https://cdnp1.stackassets.com/e8f1faa409a8afbf6253a798070a2000f9ad6f53/store/ff5a99e875e8fe3b107b971d1758eb63f64c0ec705552bf70f9a9d43fa1d/sale_26830_primary_image.jpg"
+                  alt=""
+                />
+                <div
+                  class="discount-container flex position-absolute flex-align-items-end justify-center"
+                >
+                  <p class="">51% OFF</p>
+                </div>
+              </a>
             </div>
-          </div>
-          <div>
-            <h4>
-              Scopio Authentic Stock Photography: Lifetime Subscription
-            </h4>
-            <p> <span>$1740</span> $29</p>
-          </div>
-        </article>
-        <!-- 6Entry -->
-        <article class="section5">
-          <div id="section5-image-6" class="section5-image-container">
-            <div class="section5-image-container-discount">
-              <p>50 % OFF</p>
+            <div class="card-type-1-body">
+              <a href="#">
+                <h4>Goals: The Habit & Goal Tracking App for High Achievers</h4>
+              </a>
+              <span>$49</span>
+              <span>$24.99</span>
             </div>
-          </div>
-          <div>
-            <h4>
-              uBar 4 Toolbar for Mac
-            </h4>
-            <p> <span>$30</span> $15</p>
-          </div>
-        </article>
-        <!-- 7Entry -->
-        <article class="section5">
-          <div id="section5-image-7" class="section5-image-container">
-            <div class="section5-image-container-discount">
-              <p>98 % OFF</p>
+          </article>
+
+          <article class="card-type-1">
+            <div class="position-relative">
+              <a href="#">
+                <img
+                  src="https://cdnp2.stackassets.com/55b5582123940580564fac41b684a689184fb566/store/066605b2a90e38c775878a560a4602ac2b165c69d46f49932c490053c5e9/sale_21184_primary_image.jpg"
+                  alt=""
+                />
+                <div
+                  class="discount-container flex position-absolute flex-align-items-end justify-center"
+                >
+                  <p class="">97% OFF</p>
+                </div>
+              </a>
             </div>
-          </div>
-          <div>
-            <h4>
-              The Ultimate Business Intelligence Bundle
-            </h4>
-            <p> <span>$1300</span> $29</p>
-          </div>
-        </article>
-        <!-- 8Entry -->
-        <article class="section5">
-          <div id="section5-image-8" class="section5-image-container">
-            <div class="section5-image-container-discount">
-              <p>97 % OFF</p>
+            <div class="card-type-1-body">
+              <a href="#">
+                <h4>The Superhuman Lifetime Subscription Bundle</h4>
+              </a>
+              <span>$1199</span>
+              <span>$29.99</span>
             </div>
-          </div>
-          <div>
-            <h4>
-              KeepSolid VPN Unlimited: Lifetime Subscription
-            </h4>
-            <p> <span>$199</span> $39</p>
-          </div>
-        </article>
-        
+          </article>
+
+          <article class="card-type-1">
+            <div class="position-relative">
+              <a href="#">
+                <img
+                  src="https://cdnp1.stackassets.com/fd871f3b9afc9c6c2d450207f664df0eddb8f146/store/29e95c15c0092bde7c88c2e45ac64bbb3febde71880b56c8feceadee46eb/sale_21597_primary_image.jpg"
+                  alt=""
+                />
+                <div
+                  class="discount-container flex position-absolute flex-align-items-end justify-center"
+                >
+                  <p class="">98% OFF</p>
+                </div>
+              </a>
+            </div>
+            <div class="card-type-1-body">
+              <a href="#">
+                <h4>
+                  Scopio Authentic Stock Photography: Lifetime Subscription
+                </h4>
+              </a>
+              <span>$1740</span>
+              <span>$29</span>
+            </div>
+          </article>
+
+          <article class="card-type-1">
+            <div class="position-relative">
+              <a href="#">
+                <img
+                  src="https://cdnp0.stackassets.com/4bba3ed2a29d1ec4d5e455f6cb966f594e2a5bfa/store/59de3ec9fa8a378e3274e59d7f030b65a925b5fb7831e131a670f2499f39/sale_17095_primary_image.jpg"
+                  alt=""
+                />
+                <div
+                  class="discount-container flex position-absolute flex-align-items-end justify-center"
+                >
+                  <p class="">50% OFF</p>
+                </div>
+              </a>
+            </div>
+            <div class="card-type-1-body">
+              <a href="#">
+                <h4>uBar 4 Toolbar for Mac</h4>
+              </a>
+              <span>$30</span>
+              <span>$15</span>
+            </div>
+          </article>
+
+          <article class="card-type-1">
+            <div class="position-relative">
+              <a href="#">
+                <img
+                  src="https://cdnp2.stackassets.com/d48d154ad7f3d33b6f587466b790e39af4d6e2bf/store/17febfdeb1493cdde05189726e84157148c9f73c42850ca4fc4227ebfde8/sale_16301_primary_image.jpg"
+                  alt=""
+                />
+                <div
+                  class="discount-container flex position-absolute flex-align-items-end justify-center"
+                >
+                  <p class="">98% OFF</p>
+                </div>
+              </a>
+            </div>
+            <div class="card-type-1-body">
+              <a href="#">
+                <h4>The Ultimate Business Intelligence Bundle</h4>
+              </a>
+              <span>$1300</span>
+              <span>$29</span>
+            </div>
+          </article>
+
+          <article class="card-type-1">
+            <div class="position-relative">
+              <a href="#">
+                <img
+                  src="https://cdnp3.stackassets.com/0b442829152188ef5c1de0aff7d72820282f26e0/store/73b9b30bec03d67a0c89bae3aaaddafc5a59895b1edd5194d61ab010f926/sale_20564_primary_image.jpg"
+                  alt=""
+                />
+                <div
+                  class="discount-container flex position-absolute flex-align-items-end justify-center"
+                >
+                  <p class="">80% OFF</p>
+                </div>
+              </a>
+            </div>
+            <div class="card-type-1-body">
+              <a href="#">
+                <h4>KeepSolid VPN Unlimited: Lifetime Subscription</h4>
+              </a>
+              <span>$199</span>
+              <span>$39</span>
+            </div>
+          </article>
         </div>
       </section>
     </main>
-
-    <footer class="">
-      <div class="footer-top">
-         <ul class="footer-top-socialMedia"
-          <li><a href="#"><i class="fab fa-facebook fa-2x"></i></a></li>
-          <li><a href="#"><i class="fab fa-twitter-square fa-2x"></i></a></li>
-          <li><a href="#"><i class="fab fa-youtube-square fa-2x"></i></a></li>
-          <li><a href="#"><i class="fab fa-instagram-square fa-2x"></i></a></li>
-          <li><a href="#"><i class="fab fa-pinterest-square fa-2x"></i></a></li>
-          <li><a href="#"><i class="fas fa-wifi fa-2x"></i></a></li>
-          <li><a href="#"><i class="fas fa-envelope fa-2x"></i></a></li>
-        </ul>
-        <ul class="footer-top-menu ">
-          <li> <a href="#">Events</a></li>
-          <li> <a href="#">About</a></li>
-          <li> <a href="#">Advertise</a></li>
-          <li> <a href="#">Jobs</a></li>
-          <li> <a href="#">Contact</a></li>
-        </ul>
+    <footer>
+      <div class="flex flex-column">
+        <div class="flex flex-column main-container m-0-auto">
+          <ul class="flex justify-center">
+            <li>
+              <a href="#"><i class="fab fa-facebook fa-3x"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter-square fa-3x"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-youtube-square fa-3x"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram-square fa-3x"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-pinterest-square fa-3x"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-wifi fa-3x"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-envelope fa-3x"></i></a>
+            </li>
+          </ul>
+          <ul class="flex justify-center">
+            <li><a href="#">Events</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Advertise</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="footer-bottom">
-        <p>
-          The Next Web © 2006–2020 The Next Web B.V. Made with ♥ in Amsterdam. Powered by StackPath
-        </p>
+      <div class="flex">
+        <div class="flex main-container m-0-auto juatify-center">
+          <p>
+            <a href="#">
+              <img
+                src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg"
+                alt=""
+              />
+            </a>
+            © 2006–2020 The Next Web B.V.
+          </p>
+          <p>
+            Made with in Amsterdam.
+          </p>
+          <p>
+            Powered by
+            <a href="#">
+              <img
+                src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/stackpath.svg"
+                alt=""
+              />
+            </a>
+          </p>
+        </div>
       </div>
     </footer>
 
-    <div style="display:inline"> <a class="accessible-icon" href="#"><i class="fab fa-accessible-icon fa-2x"></i></a> </div>
+    <a class="accessible-icon" href="#">
+      <i class="fab fa-accessible-icon fa-2x"></i>
+    </a>
   </body>
 </html>
