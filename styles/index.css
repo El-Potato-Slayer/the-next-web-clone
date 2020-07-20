@@ -1,0 +1,802 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "ARS Maquette";
+  src: url("fonts/ARSMaquettePro-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Avalon";
+  src: url("fonts/Avalon_Bold.ttf");
+}
+
+@font-face {
+  font-family: "Shentox";
+  src: url("fonts/Shentox.ttf");
+}
+
+body {
+  height: 120vh;
+}
+
+img {
+  width: 100%;
+}
+
+h2 {
+  font-size: 28px;
+  font-family: "Avalon", sans-serif;
+}
+
+h2.header-link {
+  margin: 32px 0;
+}
+
+ul {
+  list-style: none;
+}
+
+main > * {
+  margin: 40px 0;
+}
+
+.firstNav,
+.secondNav,
+h3,
+h4,
+.section1,
+.card-type-2,
+footer {
+  font-family: "ARS Maquette", sans-serif;
+}
+
+.main-container {
+  max-width: 1172px;
+  padding: 0 10px;
+}
+
+.m-0-auto {
+  margin: 0 auto;
+}
+
+.header-link {
+  color: #f42;
+}
+
+.header-link:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-gray {
+  color: #7f7573;
+}
+
+.img-overlay {
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.flex-3 {
+  flex: 3;
+}
+
+.flex-4 {
+  flex: 4;
+}
+
+.flex-5 {
+  flex: 5;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.flex-align-items-end {
+  align-items: flex-end;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-col-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-col-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-gap-24 {
+  grid-gap: 24px;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+#logo-box {
+  padding: 10px;
+  background-color: red;
+}
+
+#redImage,
+#hamburger-icon,
+#logo-box {
+  display: none;
+}
+
+.navBox {
+  width: 100%;
+}
+
+.firstNav {
+  background: black;
+  font-size: 13px;
+  padding: 4px 20px;
+}
+
+.firstNav a {
+  color: white;
+  padding: 5px 0;
+  opacity: 0.5;
+}
+
+.firstNav-left a {
+  padding-right: 20px;
+}
+
+.firstNav-rigth a {
+  padding-left: 20px;
+}
+
+.secondNav {
+  font-size: 14px;
+}
+
+.secondNav-left a {
+  padding: 12px 4px 12px 12px;
+  color: gray;
+}
+
+.card-type-2-body a {
+  font-size: 13px;
+  color: #555;
+}
+
+.secondNav button a {
+  color: gray;
+}
+
+footer ul li {
+  padding: 16px 8px;
+}
+
+.section1-card-header ul li,
+.section1-card-header ul li a {
+  color: darkgray;
+  display: inline;
+  font-size: 12px;
+}
+
+footer ul:first-child li a {
+  color: #aaa;
+  font-size: 13px;
+}
+
+footer ul:last-child li a {
+  color: #aaa;
+}
+
+footer ul li a:hover {
+  color: white;
+}
+
+.firstNav a:hover {
+  opacity: 1;
+}
+
+.secondNav a:hover {
+  color: black;
+}
+
+.secondNav button {
+  border: none;
+  background-color: transparent;
+  border-left: 1px solid lightgray;
+  padding: 0 20px;
+}
+
+.section1 {
+  grid-template-columns: 0.65fr 0.35fr;
+  grid-gap: 8px;
+  height: 500px;
+  border-top: 10px solid lightgray;
+  padding: 0 10px;
+}
+
+.section1-card {
+  background-color: blue;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer img {
+  height: 9px;
+  width: auto;
+}
+
+.card-type-2-header img {
+  width: 60px;
+  top: 10px;
+  left: 10px;
+}
+
+.card-type-3 div img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.section1 > div:first-child img {
+  top: 20px;
+  left: 20px;
+  max-width: 50%;
+}
+
+.section1-card > p {
+  top: 20px;
+  right: 20px;
+  font-size: 14px;
+}
+
+.section1-card-header {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+
+.section1-card-header h2 {
+  font-size: 56px;
+}
+
+.section1-card-header p {
+  font-size: 12px;
+}
+
+.smaller-section1-card h2 {
+  font-size: 28px;
+}
+
+.section1-card-header ul li {
+  padding: 0 4px;
+}
+
+.section3-header a:nth-child(1),
+.section3-header a:nth-child(2) {
+  border-right: 1px solid red;
+  padding: 0 5px;
+}
+
+.section3-header a:nth-child(3) {
+  padding-left: 5px;
+}
+
+.card-type-2-body a:hover {
+  color: black;
+}
+
+.section1-card-header ul li a:hover {
+  color: white;
+}
+
+.section1-article2 {
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 8px;
+}
+
+.section1-image-1 {
+  background:
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/ccs-ariya-chademo-nissan-leaf-charging-cars-electricity-ev-ccs-type-2-port-cable-connector-796x448.png),
+    linear-gradient(orange, rgba(0, 0, 0) 95%);
+}
+
+.section1-image-2 {
+  background:
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Untitled-design-4-796x417.png),
+    linear-gradient(transparent, rgba(0, 0, 0) 95%);
+}
+
+.section1-image-3 {
+  background:
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/header-image-horny-void-796x417.png),
+    linear-gradient(transparent, rgba(0, 0, 0) 95%);
+}
+
+.card-type-2 {
+  background: #fffaf8;
+}
+
+.card-type-2-header {
+  background: #fffaf8;
+  font-family: "Avalon", 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.card-type-2-header > h4 {
+  background: #fc4321;
+  padding: 12px 0 12px 80px;
+}
+
+.card-type-2-header > div {
+  background: #ffebe7;
+  padding: 12px 0 16px 80px;
+}
+
+.card-type-3 div {
+  margin-top: 2px;
+}
+
+footer > div:first-child {
+  background-color: #131313;
+  padding: 24px 0;
+}
+
+footer > div:last-child {
+  background-color: #000;
+  color: rgb(170, 170, 170);
+  padding: 40px 0;
+  font-size: 13px;
+}
+
+.card-type-2-body div:first-child {
+  height: 80px;
+  padding: 4px 16px;
+  border-bottom: 1px solid orange;
+}
+
+.card-type-2-body div:last-child {
+  height: 88px;
+  padding: 16px 16px 4px;
+}
+
+.card-type-2-body i {
+  padding-right: 8px;
+}
+
+.card-type-2-body {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.card-type-2-body span {
+  color: #aaa;
+}
+
+.card-type-3 {
+  padding: 16px 0;
+}
+
+.card-type-2-header h5,
+footer ul {
+  list-style-type: none;
+  font-family: "Shentox", sans-serif;
+}
+
+.card-type-3 ul {
+  padding: 0 8px 0 16px;
+}
+
+.card-type-3 > ul:last-child li {
+  padding: 4px 0;
+  border-bottom: 1px solid lightgray;
+}
+
+.card-type-3 > ul:last-child li a {
+  padding: 4px 0;
+  font-size: 14px;
+  line-height: 19.5px;
+  color: rgb(85, 85, 85);
+}
+
+.card-type-3 > ul:last-child li a:hover {
+  color: black;
+}
+
+.section4 ul li::before {
+  content: "• ";
+  color: orange;
+  margin-left: -10px;
+}
+
+.card-type-3 article * {
+  padding: 4px 0;
+}
+
+.card-type-3 article {
+  height: 250px;
+  padding: 0 16px;
+}
+
+.section4 > section:first-child article {
+  background:
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg),
+    linear-gradient(transparent, rgba(0, 0, 0) 95%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section4 > section:nth-child(2) article {
+  background:
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Twitter-Hack-1-368x276.jpg),
+    linear-gradient(transparent, rgba(0, 0, 0) 95%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section4 > section:nth-child(3) article {
+  background:
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/header-image-new-braided-iPhone-cable-368x276.png),
+    linear-gradient(transparent, rgba(0, 0, 0) 95%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section4 > section:nth-child(4) article {
+  background:
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Untitled-design-5-368x276.png),
+    linear-gradient(transparent, rgba(0, 0, 0) 95%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section4 > section:nth-child(5) article {
+  background:
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Screenshot-2020-07-15-at-13.40.33-368x276.png),
+    linear-gradient(transparent, rgba(0, 0, 0) 95%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section4 > section:nth-child(6) article {
+  background:
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Featured-Image-The-Next-Web-368x276.jpg),
+    linear-gradient(transparent, rgba(0, 0, 0) 95%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section4 > section:nth-child(7) article {
+  background:
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/sleep-work-nap-office-gq-368x276.png),
+    linear-gradient(transparent, rgba(0, 0, 0) 95%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section4 > section:nth-child(8) article {
+  background:
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/BMW-ix3-unveiling-car-future-bavarian-motor-ev-electric-368x276.png),
+    linear-gradient(transparent, rgba(0, 0, 0) 95%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section4 > section:nth-child(9) article {
+  background:
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/call-of-duty-warzone-cod-368x276.jpg),
+    linear-gradient(transparent, rgba(0, 0, 0) 95%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-type-3 h4 {
+  font-size: 14px;
+}
+
+.card-type-3 p {
+  font-size: 13px;
+}
+
+.discount-container p {
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  font-weight: bolder;
+}
+
+.card-type-3 h4,
+.card-type-3 div p {
+  color: #f42;
+}
+
+.card-type-3 article span {
+  display: inline-block;
+  padding: 8px 0;
+  color: gray;
+  font-size: 14px;
+}
+
+.card-type-3 div:first-child {
+  padding: 10px 12px;
+  min-height: 100px;
+  background: #fff4f2;
+}
+
+.card-type-1 {
+  overflow: hidden;
+}
+
+.card-type-1 h4 {
+  padding: 8px 0;
+}
+
+.card-type-1 h4:hover {
+  color: #f42;
+}
+
+.card-type-1-body > span:last-child {
+  font-size: 16px;
+  color: #555;
+}
+
+.discount-container {
+  width: 100px;
+  height: 100px;
+  top: -50px;
+  right: -50px;
+  background-color: #fc0;
+  transform: rotate(45deg);
+  padding: 4px;
+}
+
+.card-type-1-body span:nth-of-type(1) {
+  font-size: 13px;
+  text-decoration: line-through;
+  padding-right: 4px;
+  color: #aaa;
+}
+
+.accessible-icon {
+  color: white;
+  background-color: blue;
+  padding: 15px 15px 10px 15px;
+  border-radius: 50%;
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+}
+
+.accessible-icon:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+  color: blue;
+  background-color: white;
+}
+
+@media (max-width: 1024px) {
+  .section1-image-1 {
+    background:
+      url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/ccs-ariya-chademo-nissan-leaf-charging-cars-electricity-ev-ccs-type-2-port-cable-connector-796x448.png),
+      linear-gradient(transparent, rgba(0, 0, 0) 95%);
+  }
+
+  .main-container {
+    padding: 0 24px;
+  }
+
+  #redImage {
+    background-color: red;
+    width: 75px;
+    height: 100%;
+    display: block;
+  }
+
+  .navBox {
+    width: 100%;
+  }
+
+  .firstNav-left {
+    padding-left: 10px;
+  }
+
+  .firstNav-left a {
+    padding-right: 5px;
+  }
+
+  #logo-box {
+    display: inline;
+  }
+
+  .section1-card h2 {
+    font-size: 40px;
+  }
+
+  .section1-card > p {
+    display: none;
+  }
+
+  .section1-card img {
+    display: none;
+  }
+
+  .smaller-section1-card h2 {
+    font-size: 20px;
+  }
+
+  .grid-col-4 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .card-type-1 h4 {
+    font-size: 14px;
+  }
+
+  .card-type-1 p {
+    font-size: 12px;
+  }
+
+  .section3-header {
+    flex-direction: column;
+    padding-bottom: 16px;
+  }
+
+  .section3 h2 {
+    margin: 0 0 16px 0;
+  }
+
+  .section3-header div:last-child {
+    justify-content: flex-start;
+  }
+
+  .section4 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .accessible-icon {
+    border-radius: 0;
+    padding: 8px 8px 5px 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .secondNav-left,
+  .firstNav {
+    display: none;
+  }
+
+  .secondNav-right button {
+    justify-content: flex-end;
+  }
+
+  #hamburger-icon {
+    display: inline-block;
+    text-align: right;
+  }
+
+  footer > div:last-child div {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .section3-header div:last-child a {
+    border: none;
+    padding: 8px 0;
+  }
+
+  #hamburger-icon a {
+    color: red;
+  }
+
+  .secondNav-right {
+    width: 100%;
+  }
+
+  .secondNav button {
+    padding: 16px;
+  }
+
+  #redImage {
+    width: 100px;
+  }
+
+  .section1 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+    height: 600px;
+  }
+
+  .section1-article2 {
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .section1-card h2 {
+    font-size: 20px;
+    padding: 4px 0;
+  }
+
+  .grid-col-4 {
+    grid-template-columns: 1fr;
+    grid-gap: 12px;
+  }
+
+  .card-type-1 {
+    display: flex;
+  }
+
+  .card-type-1 img {
+    width: 80px;
+    height: 80px;
+    margin-right: 16px;
+    object-fit: cover;
+  }
+
+  .discount-container {
+    display: none;
+  }
+
+  .section3-header div:last-child {
+    flex-direction: column;
+    border: none;
+    align-items: flex-start;
+  }
+
+  .section4 {
+    grid-template-columns: 1fr;
+  }
+
+  .card-type-3 article {
+    min-height: 500px;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
