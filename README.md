@@ -3,7 +3,7 @@
 The aim of this project was to create a webpage that's responsive to different screensizes. Changes in layout are shown at widths of 1024px and 768px.
 
 
-![image](https://user-images.githubusercontent.com/43865875/87876548-14118480-c9d9-11ea-8c7b-65a0f18fac33.png)
+![image](https://user-images.githubusercontent.com/43865875/87954806-2826b600-caad-11ea-83d6-2a1174775d48.png)
 
 
 ## Buit with
@@ -11,9 +11,6 @@ The aim of this project was to create a webpage that's responsive to different s
 - CSS
 
 ## Live Demo
-
-[Live Demo Link](https://raw.githack.com/El-Potato-Slayer/the-next-web-clone/main-branch/index.html)
-
 
 ## Authors
 
