@@ -82,8 +82,6 @@ footer {
 
 .img-overlay {
   background-blend-mode: overlay;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .flex {
@@ -344,20 +342,19 @@ footer img {
 }
 
 .section1-image-1 {
-  background:
-    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/ccs-ariya-chademo-nissan-leaf-charging-cars-electricity-ev-ccs-type-2-port-cable-connector-796x448.png),
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/ccs-ariya-chademo-nissan-leaf-charging-cars-electricity-ev-ccs-type-2-port-cable-connector-796x448.png),
     linear-gradient(orange, rgba(0, 0, 0) 95%);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .section1-image-2 {
-  background:
-    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Untitled-design-4-796x417.png),
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Untitled-design-4-796x417.png),
     linear-gradient(transparent, rgba(0, 0, 0) 95%);
 }
 
 .section1-image-3 {
-  background:
-    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/header-image-horny-void-796x417.png),
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/header-image-horny-void-796x417.png),
     linear-gradient(transparent, rgba(0, 0, 0) 95%);
 }
 
@@ -367,7 +364,7 @@ footer img {
 
 .card-type-2-header {
   background: #fffaf8;
-  font-family: "Avalon", 'Times New Roman', Times, serif;
+  font-family: "Avalon", "Times New Roman", Times, serif;
   font-weight: bold;
 }
 
@@ -467,72 +464,63 @@ footer ul {
 }
 
 .section4 > section:first-child article {
-  background:
-    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg),
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg),
     linear-gradient(transparent, rgba(0, 0, 0) 95%);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .section4 > section:nth-child(2) article {
-  background:
-    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Twitter-Hack-1-368x276.jpg),
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Twitter-Hack-1-368x276.jpg),
     linear-gradient(transparent, rgba(0, 0, 0) 95%);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .section4 > section:nth-child(3) article {
-  background:
-    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/header-image-new-braided-iPhone-cable-368x276.png),
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/header-image-new-braided-iPhone-cable-368x276.png),
     linear-gradient(transparent, rgba(0, 0, 0) 95%);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .section4 > section:nth-child(4) article {
-  background:
-    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Untitled-design-5-368x276.png),
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Untitled-design-5-368x276.png),
     linear-gradient(transparent, rgba(0, 0, 0) 95%);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .section4 > section:nth-child(5) article {
-  background:
-    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Screenshot-2020-07-15-at-13.40.33-368x276.png),
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Screenshot-2020-07-15-at-13.40.33-368x276.png),
     linear-gradient(transparent, rgba(0, 0, 0) 95%);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .section4 > section:nth-child(6) article {
-  background:
-    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Featured-Image-The-Next-Web-368x276.jpg),
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Featured-Image-The-Next-Web-368x276.jpg),
     linear-gradient(transparent, rgba(0, 0, 0) 95%);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .section4 > section:nth-child(7) article {
-  background:
-    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/sleep-work-nap-office-gq-368x276.png),
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/sleep-work-nap-office-gq-368x276.png),
     linear-gradient(transparent, rgba(0, 0, 0) 95%);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .section4 > section:nth-child(8) article {
-  background:
-    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/BMW-ix3-unveiling-car-future-bavarian-motor-ev-electric-368x276.png),
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/BMW-ix3-unveiling-car-future-bavarian-motor-ev-electric-368x276.png),
     linear-gradient(transparent, rgba(0, 0, 0) 95%);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .section4 > section:nth-child(9) article {
-  background:
-    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/call-of-duty-warzone-cod-368x276.jpg),
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/call-of-duty-warzone-cod-368x276.jpg),
     linear-gradient(transparent, rgba(0, 0, 0) 95%);
   background-repeat: no-repeat;
   background-size: cover;
@@ -623,8 +611,7 @@ footer ul {
 
 @media (max-width: 1024px) {
   .section1-image-1 {
-    background:
-      url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/ccs-ariya-chademo-nissan-leaf-charging-cars-electricity-ev-ccs-type-2-port-cable-connector-796x448.png),
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/ccs-ariya-chademo-nissan-leaf-charging-cars-electricity-ev-ccs-type-2-port-cable-connector-796x448.png),
       linear-gradient(transparent, rgba(0, 0, 0) 95%);
   }
 
