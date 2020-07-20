@@ -574,6 +574,10 @@ footer ul:last-child li a {
   color: #aaaaaa;
 }
 
+footer ul:last-child li a:hover {
+  color: white;
+}
+
 footer > div:last-child {
   background-color: #000000;
   color: rgb(170, 170, 170);
