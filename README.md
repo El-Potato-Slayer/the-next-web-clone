@@ -11,6 +11,7 @@ The aim of this project was to create a webpage that's responsive to different s
 - CSS
 
 ## Live Demo
+[Live Link](https://raw.githack.com/El-Potato-Slayer/the-next-web-clone/master/index.html)
 
 ## Authors
 
